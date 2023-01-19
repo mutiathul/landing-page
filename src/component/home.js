@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+
 import "../component/home.css"
 import Bg1 from '../asset/home/bg1.jpg'
 import logo from '../asset/home/logo.png'
@@ -21,7 +22,7 @@ import fb from '../asset/home/facebook.png'
 import twitter from '../asset/home/twitter.png'
 import wa from '../asset/home/whatsapp.png'
 //import bawah from '../asset/home/augmented reality bawah gambar.png'
-import { Button, Image, Row, Col, Card } from 'antd';
+import { Button, Image, Row, Col, Card } from 'antd'
 import Title from 'antd/es/typography/Title'
 import earn from '../asset/home/find to earn.png'
 import bawah from '../asset/home/panah bawah.png'
@@ -299,13 +300,7 @@ export default class Home extends Component {
                   className='box'
                     //  title="Card title"
                     //  bordered={false}
-                    // style={{
-                    //   //  width: 300,
-                    //   marginLeft: '50.5em',
-                    //   background: 'white',
-                    //   width: '500px', height: '60px', border: '1px solid blue',
-                    //   marginTop: '2em'
-                    // }}
+                  
                   >
                     <Row>
                       <Col span={1}>
@@ -459,3 +454,6 @@ export default class Home extends Component {
     )
   }
 }
+
+
+

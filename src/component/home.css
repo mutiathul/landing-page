@@ -203,7 +203,9 @@
     margin-left: -30em ; 
     width:auto;
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
     .bg5 {
         background: url("../asset/home/bg5.jpg"); 
         height: auto; 
@@ -217,11 +219,12 @@
         color: #1a92d7; 
         font-weight: bold; 
         font-size: 24px; 
-        margin-top: -10em; 
+        margin-top: 10em; 
         text-indent: 3px; 
         letter-spacing: 2px; 
         margin-top: 7em; 
-        margin-left: 14em;
+        margin-left: 15em;
+       
     }
     .faq_font {
         font-size: 12px; 
@@ -268,6 +271,215 @@
         background: white;
         width: 300px; height: auto; border: 1px solid blue;
         margin-top: 2em;
+    }
+     
+    .media {
+
+        color: white; 
+        font-weight: bold; 
+        font-size: 200px; 
+        margin-top: 10px; 
+        text-indent: 5px; 
+        letter-spacing: 3px; 
+        margin-top: 7em; 
+        margin-left: 15em;
+    }
+    .page1{
+        margin-top: 6em;
+        display: flexbox;
+        margin-left: 5em;
+    }
+    .welcome {
+        color: white;
+        font-weight: bolder; 
+        font-size: 30px; 
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .nubiText {
+        color: white;
+         font-weight: 400; 
+         font-size: 15px;
+         text-indent: 3px;
+         /* letter-spacing: 2px */
+    }
+    .ar {
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+        /* text-align: left; */
+        /* margin-top: 10px;
+        text-indent: 5px;
+        letter-spacing: 2px */
+    }
+    .p_pg1{
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 12px; 
+        /* margin-top: 10px; 
+        margin-right: 30px;
+        margin-left: 5px */
+    }
+    .p1_pg1 {
+        color: white; 
+        font-weight: 400;
+        text-align: left; 
+        font-size: 12; 
+        margin-top: -1em; 
+        margin-right: 30px; 
+        margin-left: 5px; 
+       
+    }
+    .dw1 {
+        width: 50px;
+        margin-top: -21px;
+        margin-left: -3.5em;
+    }
+    .dw2 {
+        width: 50px;
+        margin-top: -23px;
+        margin-left: -10px;
+    }
+    .find {
+        color: white; 
+        /* margin-left: 1em;  */
+        font-size: 11px; 
+        font-weight: 500;
+        margin-right: 10px;
+    }
+    
+    .find_image {
+    
+        width: 15px;
+    }
+    .ar2 {
+        color: white; 
+        font-weight: bold; 
+        font-size: 20px; 
+        margin-top: 3px; 
+        text-indent: 5px; 
+        letter-spacing: 3px
+    }
+
+    .p_pg2 {
+
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 12px; 
+        margin-top: 10px; 
+        margin-right: 30px; 
+        margin-left: 5px
+    }
+
+    .div_pg2 {
+        margin-top: 3em; 
+        display: flexbox; 
+        margin-left: 3em;
+    }
+
+    .image_pg2 {
+        width: 110px;
+        margin-left: 10em;
+    }
+    .image2_pg2 {
+        /* width: 78%; */
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    .partner {
+
+        color: #1a92d7; 
+        font-weight: bold; 
+        font-size: 17px; 
+        /* marginTop: 10px;  */
+        /* text-indent: 5px;  */
+        /* letter-spacing: 1px;  */
+        margin-top: 5em; 
+        /* margin-left: -3px */
+    }
+    .col_partner {
+        margin-left:-2em;
+    }
+    .p_partner {
+        text-align: left;
+         margin-left: 14em; 
+         margin-top: 3em ;
+         font-size: 13px;
+    }
+}
+
+@media screen and (max-device-width: 640px) {
+    .bg5 {
+        background: url("../asset/home/bg5.jpg"); 
+        height: auto; 
+        /* background-size: 135%; 
+        background-repeat: no-repeat;  */
+        margin-left: -30em ; 
+        width:auto;
+    }
+    .faq {
+
+        color: #1a92d7; 
+        font-weight: bold; 
+        font-size: 24px; 
+        margin-top: 10em; 
+        text-indent: 3px; 
+        letter-spacing: 2px; 
+        margin-top: 7em; 
+        margin-left: 14em;
+        margin-right:-4em;
+       
+    }
+    .faq_font {
+        font-size: 12px; 
+        letter-spacing: 1px; 
+        font-weight: 600;
+        text-align: left;
+    }
+    .faq_icon {
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 20px;
+    }
+    .faq_lore {
+        text-align: left; 
+        margin-top: 2em;
+        font-size: 10px;
+    }
+    .faq_text {
+        color: grey;
+        margin-right:1em;
+        margin-left: -1em;
+        font-size: 12px;
+    }
+    .faq_Button {
+        color: grey;
+        margin-right: 10px;
+       size: 5;
+    }
+    .box {
+        margin-left:25em;
+        background: white;
+        width: 500px; height: 60px; border: 1px solid blue;
+        margin-top: 2em;
+        margin-right:-4em;
+    }
+    .box1 {
+        margin-left:25em;
+        background: white;
+        width: 500px; height: 60px; border: 1px solid blue;
+        margin-top: 2em;
+        margin-bottom: 5em;
+        margin-right:-4em;
+    }
+    .box2 {
+        margin-left:25em;
+        background: white;
+        width: 500px; height: auto; border: 1px solid blue;
+        margin-top: 2em;
+        margin-right:-4em;
     }
      
     .media {
@@ -406,8 +618,8 @@
          font-size: 13px;
     }
 }
-
-@media screen and (max-width: 992px) {
+@media screen and (min-device-width: 641px)
+and (max-device-width: 767px) {
     .bg5 {
         background: url("../asset/home/bg5.jpg"); 
         height: auto; 
@@ -421,7 +633,433 @@
         color: #1a92d7; 
         font-weight: bold; 
         font-size: 24px; 
-        margin-top: -10em; 
+        margin-top: 10em; 
+        text-indent: 3px; 
+        letter-spacing: 2px; 
+        margin-top: 7em; 
+        margin-left: 15em;
+        margin-right:-4em;
+       
+    }
+    .faq_font {
+        font-size: 12px; 
+        letter-spacing: 1px; 
+        font-weight: 600;
+        text-align: left;
+    }
+    .faq_icon {
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 20px;
+    }
+    .faq_lore {
+        text-align: left; 
+        margin-top: 2em;
+        font-size: 10px;
+    }
+    .faq_text {
+        color: grey;
+        margin-right:1em;
+        margin-left: -1em;
+        font-size: 12px;
+    }
+    .faq_Button {
+        color: grey;
+        margin-right: 10px;
+       size: 5;
+    }
+    .box {
+        margin-left:25em;
+        background: white;
+        width: 500px; height: 60px; border: 1px solid blue;
+        margin-top: 2em;
+        margin-right:-4em;
+    }
+    .box1 {
+        margin-left:25em;
+        background: white;
+        width: 500px; height: 60px; border: 1px solid blue;
+        margin-top: 2em;
+        margin-bottom: 5em;
+        margin-right:-4em;
+    }
+    .box2 {
+        margin-left:25em;
+        background: white;
+        width: 500px; height: auto; border: 1px solid blue;
+        margin-top: 2em;
+        margin-right:-4em;
+    }
+     
+    .media {
+
+        color: white; 
+        font-weight: bold; 
+        font-size: 20px; 
+        margin-top: 10px; 
+        text-indent: 5px; 
+        letter-spacing: 3px; 
+        margin-top: 7em; 
+        margin-left: 15em;
+    }
+    .page1{
+        margin-top: 6em;
+        display: flexbox;
+        margin-left: 5em;
+    }
+    .welcome {
+        color: white;
+        font-weight: bolder; 
+        font-size: 30px; 
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .nubiText {
+        color: white;
+         font-weight: 400; 
+         font-size: 15px;
+         text-indent: 3px;
+         /* letter-spacing: 2px */
+    }
+    .ar {
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+        /* text-align: left; */
+        /* margin-top: 10px;
+        text-indent: 5px;
+        letter-spacing: 2px */
+    }
+    .p_pg1{
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 12px; 
+        /* margin-top: 10px; 
+        margin-right: 30px;
+        margin-left: 5px */
+    }
+    .p1_pg1 {
+        color: white; 
+        font-weight: 400;
+        text-align: left; 
+        font-size: 12; 
+        margin-top: -1em; 
+        margin-right: 30px; 
+        margin-left: 5px; 
+       
+    }
+    .dw1 {
+        width: 50px;
+        margin-top: -21px;
+        margin-left: -3.5em;
+    }
+    .dw2 {
+        width: 50px;
+        margin-top: -23px;
+        margin-left: -10px;
+    }
+    .find {
+        color: white; 
+        /* margin-left: 1em;  */
+        font-size: 11px; 
+        font-weight: 500;
+        margin-right: 10px;
+    }
+    
+    .find_image {
+    
+        width: 15px;
+    }
+    .ar2 {
+        color: white; 
+        font-weight: bold; 
+        font-size: 20px; 
+        margin-top: 3px; 
+        text-indent: 5px; 
+        letter-spacing: 3px
+    }
+
+    .p_pg2 {
+
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 12px; 
+        margin-top: 10px; 
+        margin-right: 30px; 
+        margin-left: 5px
+    }
+
+    .div_pg2 {
+        margin-top: 3em; 
+        display: flexbox; 
+        margin-left: 3em;
+    }
+
+    .image_pg2 {
+        width: 110px;
+        margin-left: 10em;
+    }
+    .image2_pg2 {
+        /* width: 78%; */
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    .partner {
+
+        color: #1a92d7; 
+        font-weight: bold; 
+        font-size: 17px; 
+        /* marginTop: 10px;  */
+        /* text-indent: 5px;  */
+        /* letter-spacing: 1px;  */
+        margin-top: 5em; 
+        /* margin-left: -3px */
+    }
+    .col_partner {
+        margin-left:-2em;
+    }
+    .p_partner {
+        text-align: left;
+         margin-left: 14em; 
+         margin-top: 3em ;
+         font-size: 13px;
+    }
+}
+@media screen and (min-device-width: 768px)
+and (max-device-width: 991px) {
+    .bg5 {
+        background: url("../asset/home/bg5.jpg"); 
+        height: auto; 
+        /* background-size: 135%; 
+        background-repeat: no-repeat;  */
+        margin-left: -30em ; 
+        width:auto;
+    }
+    .faq {
+
+        color: #1a92d7; 
+        font-weight: bold; 
+        font-size: 24px; 
+        margin-top: 10em; 
+        text-indent: 3px; 
+        letter-spacing: 2px; 
+        margin-top: 7em; 
+        margin-left: 15em;
+        margin-right:-4em;
+        transform: translateX(-4em);
+       
+    }
+    .faq_font {
+        font-size: 12px; 
+        letter-spacing: 1px; 
+        font-weight: 600;
+        text-align: left;
+    }
+    .faq_icon {
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 20px;
+    }
+    .faq_lore {
+        text-align: left; 
+        margin-top: 2em;
+        font-size: 10px;
+    }
+    .faq_text {
+        color: black;
+        margin-right:1em;
+        margin-left: -1em;
+        font-size: 14px;
+    }
+    .faq_Button {
+        color: grey;
+        margin-right: 10px;
+       size: 5;
+    }
+    .box {
+        margin-left:25em;
+        background: white;
+        width: 500px; height: 60px; border: 1px solid blue;
+        margin-top: 2em;
+        margin-right:-4em;
+        transform: translateX(-6em);
+    }
+    .box1 {
+        margin-left:25em;
+        background: white;
+        width: 500px; height: 60px; border: 1px solid blue;
+        margin-top: 2em;
+        margin-bottom: 5em;
+        margin-right:-4em;
+        transform: translateX(-6em);
+    }
+    .box2 {
+        margin-left:25em;
+        background: white;
+        width: 500px; height: auto; border: 1px solid blue;
+        margin-top: 2em;
+        margin-right:-4em;
+        transform: translateX(-6em);
+    }
+     
+    .media {
+
+        color: white; 
+        font-weight: bold; 
+        font-size: 20px; 
+        margin-top: 10px; 
+        text-indent: 5px; 
+        letter-spacing: 3px; 
+        margin-top: 7em; 
+        margin-left: 15em;
+        transform: translateX(-8em);
+    }
+    .page1{
+        margin-top: 6em;
+        display: flexbox;
+        margin-left: 5em;
+    }
+    .welcome {
+        color: white;
+        font-weight: bolder; 
+        font-size: 30px; 
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .nubiText {
+        color: white;
+         font-weight: 400; 
+         font-size: 15px;
+         text-indent: 3px;
+         /* letter-spacing: 2px */
+    }
+    .ar {
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+        /* text-align: left; */
+        /* margin-top: 10px;
+        text-indent: 5px;
+        letter-spacing: 2px */
+    }
+    .p_pg1{
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 12px; 
+        /* margin-top: 10px; 
+        margin-right: 30px;
+        margin-left: 5px */
+    }
+    .p1_pg1 {
+        color: white; 
+        font-weight: 400;
+        text-align: left; 
+        font-size: 12; 
+        margin-top: -1em; 
+        margin-right: 30px; 
+        margin-left: 5px; 
+       
+    }
+    .dw1 {
+        width: 50px;
+        margin-top: -21px;
+        margin-left: -3.5em;
+    }
+    .dw2 {
+        width: 50px;
+        margin-top: -23px;
+        margin-left: -10px;
+    }
+    .find {
+        color: white; 
+        /* margin-left: 1em;  */
+        font-size: 11px; 
+        font-weight: 500;
+        margin-right: 10px;
+    }
+    
+    .find_image {
+    
+        width: 15px;
+    }
+    .ar2 {
+        color: white; 
+        font-weight: bold; 
+        font-size: 20px; 
+        margin-top: 3px; 
+        text-indent: 5px; 
+        letter-spacing: 3px
+    }
+
+    .p_pg2 {
+
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 12px; 
+        margin-top: 10px; 
+        margin-right: 30px; 
+        margin-left: 5px
+    }
+
+    .div_pg2 {
+        margin-top: 3em; 
+        display: flexbox; 
+        margin-left: 3em;
+    }
+
+    .image_pg2 {
+        width: 110px;
+        margin-left: 10em;
+    }
+    .image2_pg2 {
+        /* width: 78%; */
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    .partner {
+
+        color: #1a92d7; 
+        font-weight: bold; 
+        font-size: 17px; 
+        /* marginTop: 10px;  */
+        /* text-indent: 5px;  */
+        /* letter-spacing: 1px;  */
+        margin-top: 5em; 
+
+        transform: translateX(-9em);
+    }
+    .col_partner {
+        margin-left:-2em;
+    }
+    .p_partner {
+        text-align: left;
+         margin-left: 14em; 
+         margin-top: 3em ;
+         font-size: 13px;
+        transform: translateX(-6em);
+
+    }
+}
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .bg5 {
+        background: url("../asset/home/bg5.jpg"); 
+        height: auto; 
+        /* background-size: 135%; 
+        background-repeat: no-repeat;  */
+        margin-left: -30em ; 
+        width:auto;
+    }
+    .faq {
+
+        color: #1a92d7; 
+        font-weight: bold; 
+        font-size: 24px; 
+        margin-top: 10em; 
         text-indent: 3px; 
         letter-spacing: 2px; 
         margin-top: 7em; 
@@ -455,20 +1093,20 @@
        size: 5;
     }
     .box {
-        margin-left:47em;
+        margin-left:45em;
         background: white;
         width: 300px; height: 60px; border: 1px solid blue;
         margin-top: 2em;
     }
     .box1 {
-        margin-left:47em;
+        margin-left:45em;
         background: white;
         width: 300px; height: 60px; border: 1px solid blue;
         margin-top: 2em;
         margin-bottom: 5em;
     }
     .box2 {
-        margin-left:47em;
+        margin-left:45em;
         background: white;
         width: 300px; height: auto; border: 1px solid blue;
         margin-top: 2em;
@@ -611,3 +1249,215 @@
          font-size: 13px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .page1 {
+        margin-top: 10em;
+        display: flexbox;
+        margin-left: 5em;
+    }
+    .welcome {
+        color: white;
+        font-weight: bolder; 
+        font-size: 80px; 
+        letter-spacing: 2px
+    }
+    
+    .nubiText {
+        color: white;
+         font-weight: 400; 
+         font-size: 50px;
+         letter-spacing: 2px
+    }
+    .ar {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10px;
+        text-indent: 5px;
+        letter-spacing: 2px
+    }
+    .p_pg1{
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 14px; 
+        margin-top: 10px; 
+        margin-right: 30px;
+        margin-left: 5px
+    }
+    .p1_pg1 {
+        color: white; 
+        font-weight: 400;
+        text-align: left; 
+        font-size: 12; 
+        margin-top: -1em; 
+        margin-right: 30px; 
+        margin-left: 5px; 
+       
+    }
+    .dw1 {
+        width: 230px;
+        margin-top: -21px;
+    }
+    .dw2 {
+        width: 230px;
+        margin-top: -23px;
+    }
+    
+    .ar2 {
+        color: white; 
+        font-weight: bold; 
+        font-size: 40px; 
+        margin-top: 10px; 
+        text-indent: 5px; 
+        letter-spacing: 3px
+    }
+    
+    .find {
+        color: white; 
+        margin-left: 1em; 
+        font-size: 16px; 
+        font-weight: 500
+    }
+    
+    .find_image {
+    
+        width: 40px;
+    }
+    
+    .p_pg2 {
+    
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 16px; 
+        margin-top: 10px; 
+        margin-right: 30px; 
+        margin-left: 5px
+    }
+    .div_pg2 {
+        margin-top: 10em; 
+        display: flexbox; 
+        margin-left: 5em;
+    }
+    .bg2 {
+        background: url("../asset/home/bg2.jpg"); 
+        height: auto; 
+        margin-bottom: 5em ; 
+        width:auto;
+    }
+    
+    .image_pg2 {
+        width: 170px;
+        margin-left: 15em;
+    }
+    
+    .image2_pg2 {
+        /* width: 78%; */
+        margin-left: 5em;
+        margin-top: 1em;
+    }
+    .partner {
+    
+        color: #1a92d7; 
+        font-weight: bold; 
+        font-size: 30px; 
+        /* marginTop: 10px;  */
+        text-indent: 5px; 
+        letter-spacing: 3px; 
+        margin-top: 5em; 
+        margin-left: 7em 
+    }
+    
+    .p_partner {
+        text-align: left;
+         margin-left: 2em; 
+         margin-top: 3em ;
+         margin-right: 8em;
+    }
+    .col_partner {
+        margin-left: 19em;
+    }
+    
+    .media {
+    
+        color: black; 
+        font-weight: bold; 
+        font-size: 30px; 
+        margin-top: 10px; 
+        text-indent: 5px; 
+        letter-spacing: 3px; 
+        margin-top: 7em; 
+        margin-left: 22em;
+    }
+    
+    .faq {
+    
+        color: #1a92d7; 
+        font-weight: bold; 
+        font-size: 28px; 
+        margin-top: 10px; 
+        text-indent: 5px; 
+        letter-spacing: 3px; 
+        margin-top: 7em; 
+        margin-left: 16em;
+    }
+    .box {
+        margin-left: 35.5em;
+        background: white;
+        width: 500px; height: 60px; border: 1px solid blue;
+        margin-top: 2em;
+    }
+    .box1 {
+        margin-left:35.5em;
+        background: white;
+        width: 500px; height: 60px; border: 1px solid blue;
+        margin-top: 2em;
+        margin-bottom: 7em;
+    }
+    .box2 {
+        margin-left:35.5em;
+        background: white;
+        width: 500px; height: auto; border: 1px solid blue;
+        margin-top: 2em;
+        
+    }
+    .col_topfaq {
+        margin-top: 17px;
+    }
+    .faq_font {
+        font-size: 15px; 
+        letter-spacing: 2px; 
+        font-weight: 600;
+        margin-top: -1px;
+        text-align: left;
+    }
+    .faq_icon {
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 30px;
+    }
+    .faq_lore {
+        text-align: left; 
+        margin-top: 2em;
+    }
+    .faq_text {
+        color: grey;
+        margin-right: 10px;
+    }
+    .faq_Button {
+        color: grey;
+        margin-right: 10px;
+    }
+    .bg5 {
+        background: url("../asset/home/bg5.jpg"); 
+        height: auto; 
+        background-size: 135%; 
+        background-repeat: no-repeat; 
+        margin-left: -20em ; 
+        width:auto;
+    }
+    
+   
+}    

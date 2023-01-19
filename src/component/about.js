@@ -18,6 +18,7 @@ import prev from '../asset/about/prev.png'
 import visi from '../asset/about/visi misi.png'
 import { Link } from 'react-router-dom';
 import Footer from './footer';
+import "../component/about.css"
 class About extends Component {
 
     onClickNubiGo(){
@@ -32,7 +33,7 @@ class About extends Component {
         return (
             <div>
                 <Header />
-                <div style={{ background: `url(${bg1})`, width:'100vw' ,height:'100vh'}} >
+                <div style={{ background: `url(${bg1})`, width:'auto' ,height:'auto'}} >
                     
                     <div style={{ background: `url(${footer})`, width:'auto' ,height:'auto',transform:'translateY(4em)'}}>
                         <Row align='middle'>
@@ -41,10 +42,10 @@ class About extends Component {
                             </Col>
                             <Col span={6}>
                             <Row>
-                                <text style={{color:'white', fontSize:40, fontWeight:'bolder',letterSpacing:'2px'}}>ABOUT</text>
+                                <text className='text_pg1'>ABOUT</text>
                             </Row>
                             <Row>
-                                <text style={{color:'white', fontSize:35, fontWeight:'400',letterSpacing:'2px'}}>NUBI GO</text>
+                                <text className='text2_pg1'>NUBI GO</text>
                             </Row>
                             </Col>
                             <Col span={2}>
@@ -54,13 +55,15 @@ class About extends Component {
                             <Row align='middle'>
                     
                     <Col span={10}>
-                      <Image  src={dw1} width={200} style={{marginRight:'-11em'}} preview={false}/>
+                      <div className='dw1'>
+                      <Image  src={dw1}  preview={false} />
+                      </div>
                     </Col>
                     <Col span={10}>
                       
-                        <Image  src={dw2} width={200} preview={false} >
-
-                        </Image>
+                    <div className='dw2'>
+                      <Image  src={dw2}  preview={false} />
+                      </div>
                      
                     </Col>
                     
@@ -75,12 +78,10 @@ class About extends Component {
 
                     <div style={{ transform:'translateY(4em)'}}>
                         <Row>
-                        <Col span={2}>
-                            
-                            </Col>
-                            <Col span={8} style={{marginTop:'3em',}} >
+                     
+                            <Col lg={{span:8, push:2}} xs={{span:22,push:2}} style={{marginTop:'3em',}} >
                             <Row>
-                    <p style={{ color: 'white', fontWeight: '400', textAlign: 'left', fontSize: 14, marginTop: '10px', marginRight: '30px', marginLeft: '5px' }}>
+                    <p className='p_pg1'>
                     NUBI GO adalah game dengan konsep FIND2EARN pertama di
                     INDONESIA! yang dikembangkan dengan teknologi Augmented
                     Reality. Para gamer dapat berpetualang mencari monster dan
@@ -89,7 +90,7 @@ class About extends Component {
                     </p>
                   </Row>
                   <Row>
-                    <p style={{ color: 'white', fontWeight: '400', textAlign: 'left', fontSize: 14, marginTop: '10px', marginRight: '30px', marginLeft: '5px' }}>
+                    <p className='p1_pg1'>
                     Lewat konsep FIND2EARN ini NUBI GO mengembangkan konsep 
                     game dengan menggunakan teknologi AR ( Augmented Reality )
                     dimana dalam game ini para gamers akan di arahkan untuk 
@@ -101,8 +102,10 @@ class About extends Component {
                     </p>
                   </Row>
                             </Col>
-                            <Col span={14} style={{marginTop:'-4em',}}>
-                            <Image src={asset1} width='60%' preview={false} />
+                            <Col lg={{span:14}}   xs={{span:24}}>
+                           <div className='asset1'>
+                           <Image src={asset1}  preview={false} />
+                           </div>
 
                             </Col>
                         </Row>
@@ -112,34 +115,35 @@ class About extends Component {
                 <div>
                     <Row>
                      
-                        <Col span={14} >
-                        <Image src={asset2} width='70%' preview={false} style={{marginTop:'15em',marginLeft:'-5em'}}/>
+                        <Col span={14}  >
+                            <div className='asset2'>
+                            <Image src={asset2}  preview={false} />
+
+                            </div>
                         </Col>
-                        <Col span={8}>
+                        <Col span={9} >
                         <Row style={{marginTop:'18em'}}>
-                    <p style={{ color: 'black', fontWeight: '400', textAlign: 'left', fontSize: 16, marginTop: '10px', marginRight: '30px', marginLeft: '5px' }}>
-                    Salah satu yang mungkin juga menjadi daya tarik dari game
-NUBI GO adalah player dapat berburu ribuan hadiah menarik
-mulai dari snack ringan,bingkisan,voucher makan gratis,
-vocher hotel, hingga ke peralatan elektronik kipas angin,
-rice cooker, HP hingga laptop. Bukan hanya itu hadiah 
-kendaraan pun mulai dari sepeda, motor hingga mobil pun
-bisa di dapatkan dengan bermain game ini.
-                    </p>
-                  </Row>
-                  <Row>
-                    <p style={{ color: 'black', fontWeight: '400', textAlign: 'left', fontSize: 16, marginTop: '10px', marginRight: '30px', marginLeft: '5px' }}>
-                    Adapun jenis hadiah yang tersedia dalam game ini berupa
-hadiah langsung ataupun berupa puzzle dimana para gamers 
-harus mengumpulkan kumpulan kepingan puzzle dalam game
-NUBI GO ini dan mengclaim hadiah tersebut.
-                    </p>
-                  </Row>
+                            <p className='p_pg2'>
+                            Salah satu yang mungkin juga menjadi daya tarik dari game
+                            NUBI GO adalah player dapat berburu ribuan hadiah menarik
+                            mulai dari snack ringan,bingkisan,voucher makan gratis,
+                            vocher hotel, hingga ke peralatan elektronik kipas angin,
+                            rice cooker, HP hingga laptop. Bukan hanya itu hadiah 
+                            kendaraan pun mulai dari sepeda, motor hingga mobil pun
+                            bisa di dapatkan dengan bermain game ini.
+                            </p>
+                        </Row>
+                        <Row>
+                        <p className='p2_pg2'>
+                        Adapun jenis hadiah yang tersedia dalam game ini berupa
+                        hadiah langsung ataupun berupa puzzle dimana para gamers 
+                        harus mengumpulkan kumpulan kepingan puzzle dalam game
+                        NUBI GO ini dan mengclaim hadiah tersebut.
+                        </p>
+                    </Row>
                         
                         </Col>
-                        <Col span={2}>
-
-                        </Col>
+                        
                     </Row>
                 </div>
                 </div>
