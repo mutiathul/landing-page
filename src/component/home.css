@@ -24,7 +24,7 @@
     text-indent: 5px;
     letter-spacing: 2px
 }
-.p_pg1{
+.pp_pg1{
     color: white; 
     font-weight: 400; 
     text-align: left; 
@@ -43,7 +43,7 @@
     margin-left: 5px; 
    
 }
-.dw1 {
+.dww1 {
     width: 230px;
     margin-top: -21px;
 }
@@ -73,7 +73,7 @@
     width: 40px;
 }
 
-.p_pg2 {
+.pp_pg2 {
 
     color: white; 
     font-weight: 400; 
@@ -128,7 +128,7 @@
 
 .media {
 
-    color: black; 
+    color: white; 
     font-weight: bold; 
     font-size: 30px; 
     margin-top: 10px; 
@@ -312,7 +312,7 @@ and (orientation: portrait) {
         text-indent: 5px;
         letter-spacing: 2px */
     }
-    .p_pg1{
+    .pp_pg1{
         color: white; 
         font-weight: 400; 
         text-align: left; 
@@ -331,7 +331,7 @@ and (orientation: portrait) {
         margin-left: 5px; 
        
     }
-    .dw1 {
+    .dww1 {
         width: 50px;
         margin-top: -21px;
         margin-left: -3.5em;
@@ -362,7 +362,7 @@ and (orientation: portrait) {
         letter-spacing: 3px
     }
 
-    .p_pg2 {
+    .pp_pg2 {
 
         color: white; 
         font-weight: 400; 
@@ -521,7 +521,7 @@ and (orientation: portrait) {
         text-indent: 5px;
         letter-spacing: 2px */
     }
-    .p_pg1{
+    .pp_pg1{
         color: white; 
         font-weight: 400; 
         text-align: left; 
@@ -540,7 +540,7 @@ and (orientation: portrait) {
         margin-left: 5px; 
        
     }
-    .dw1 {
+    .dww1 {
         width: 50px;
         margin-top: -21px;
         margin-left: -3.5em;
@@ -571,7 +571,7 @@ and (orientation: portrait) {
         letter-spacing: 3px
     }
 
-    .p_pg2 {
+    .pp_pg2 {
 
         color: white; 
         font-weight: 400; 
@@ -730,7 +730,7 @@ and (max-device-width: 767px) {
         text-indent: 5px;
         letter-spacing: 2px */
     }
-    .p_pg1{
+    .pp_pg1{
         color: white; 
         font-weight: 400; 
         text-align: left; 
@@ -749,7 +749,7 @@ and (max-device-width: 767px) {
         margin-left: 5px; 
        
     }
-    .dw1 {
+    .dww1 {
         width: 50px;
         margin-top: -21px;
         margin-left: -3.5em;
@@ -780,7 +780,7 @@ and (max-device-width: 767px) {
         letter-spacing: 3px
     }
 
-    .p_pg2 {
+    .pp_pg2 {
 
         color: white; 
         font-weight: 400; 
@@ -944,7 +944,7 @@ and (max-device-width: 991px) {
         text-indent: 5px;
         letter-spacing: 2px */
     }
-    .p_pg1{
+    .pp_pg1{
         color: white; 
         font-weight: 400; 
         text-align: left; 
@@ -963,7 +963,7 @@ and (max-device-width: 991px) {
         margin-left: 5px; 
        
     }
-    .dw1 {
+    .dww1 {
         width: 50px;
         margin-top: -21px;
         margin-left: -3.5em;
@@ -994,7 +994,7 @@ and (max-device-width: 991px) {
         letter-spacing: 3px
     }
 
-    .p_pg2 {
+    .pp_pg2 {
 
         color: white; 
         font-weight: 400; 
@@ -1151,7 +1151,7 @@ and (max-device-width: 1024px) {
         text-indent: 5px;
         letter-spacing: 2px */
     }
-    .p_pg1{
+    .pp_pg1{
         color: white; 
         font-weight: 400; 
         text-align: left; 
@@ -1170,7 +1170,7 @@ and (max-device-width: 1024px) {
         margin-left: 5px; 
        
     }
-    .dw1 {
+    .dww1 {
         width: 50px;
         margin-top: -21px;
         margin-left: -3.5em;
@@ -1202,7 +1202,7 @@ and (max-device-width: 1024px) {
         margin-left: 2em;
     }
 
-    .p_pg2 {
+    .pp_pg2 {
 
         color: white; 
         font-weight: 400; 
@@ -1260,7 +1260,8 @@ and (max-device-width: 1024px) {
         color: white;
         font-weight: bolder; 
         font-size: 80px; 
-        letter-spacing: 2px
+        letter-spacing: 2px;
+        
     }
     
     .nubiText {
@@ -1277,26 +1278,27 @@ and (max-device-width: 1024px) {
         text-indent: 5px;
         letter-spacing: 2px
     }
-    .p_pg1{
+    .pp_pg1{
         color: white; 
         font-weight: 400; 
         text-align: left; 
         font-size: 14px; 
-        margin-top: 10px; 
+        margin-top: 1em;
         margin-right: 30px;
-        margin-left: 5px
+        margin-left: 5px;
+        
     }
     .p1_pg1 {
         color: white; 
         font-weight: 400;
         text-align: left; 
         font-size: 12; 
-        margin-top: -1em; 
+        margin-top: 10em;
         margin-right: 30px; 
         margin-left: 5px; 
        
     }
-    .dw1 {
+    .dww1 {
         width: 230px;
         margin-top: -21px;
     }
@@ -1326,7 +1328,7 @@ and (max-device-width: 1024px) {
         width: 40px;
     }
     
-    .p_pg2 {
+    .pp_pg2 {
     
         color: white; 
         font-weight: 400; 
@@ -1367,14 +1369,15 @@ and (max-device-width: 1024px) {
         text-indent: 5px; 
         letter-spacing: 3px; 
         margin-top: 5em; 
-        margin-left: 7em 
+        margin-left: 10em 
     }
     
     .p_partner {
         text-align: left;
          margin-left: 2em; 
          margin-top: 3em ;
-         margin-right: 8em;
+         margin-right: 10em;
+         margin-right: 3em;
     }
     .col_partner {
         margin-left: 19em;
@@ -1382,14 +1385,14 @@ and (max-device-width: 1024px) {
     
     .media {
     
-        color: black; 
+        color: white; 
         font-weight: bold; 
         font-size: 30px; 
         margin-top: 10px; 
         text-indent: 5px; 
         letter-spacing: 3px; 
         margin-top: 7em; 
-        margin-left: 22em;
+        margin-left: 25em;
     }
     
     .faq {
@@ -1401,7 +1404,7 @@ and (max-device-width: 1024px) {
         text-indent: 5px; 
         letter-spacing: 3px; 
         margin-top: 7em; 
-        margin-left: 16em;
+        margin-left: 17em;
     }
     .box {
         margin-left: 35.5em;

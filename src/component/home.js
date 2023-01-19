@@ -52,13 +52,13 @@ export default class Home extends Component {
 
                   </Row>
                   <Row>
-                    <p className='p_pg1'>
+                    <p className='pp_pg1'>
                       Games Augmented Reality PERTAMA DI INDONESIA dengan konsep "FINDE2EARN"!!!
                       Bermain Games sambil berpetualang dengan cara yang seru, dan berpeluang mendapatkan banyak REWARD!
                     </p>
                   </Row>
                   <Row>
-                    <p className='p_pg1'>
+                    <p className='p1_pg1'>
                       Mian game dapat hadiah ?? Mau??
                     </p>
                   </Row>
@@ -72,7 +72,7 @@ export default class Home extends Component {
                     
                     </Col>
                     <Col span={10}>
-                      <Image className='dw1' src={dw1}  preview={false}/>
+                      <Image className='dww1' src={dw1}  preview={false}/>
                     </Col>
                     <Col span={10}>
                       <Fragment>
@@ -134,7 +134,7 @@ export default class Home extends Component {
                     </Col>
                   </Row>
                   <Row style={{ marginTop: '3em', }}>
-                    <p className='p_pg2'>
+                    <p className='pp_pg2'>
                       NUBI GO adalah permainan realitas dengan konsep petualangan
                       mencari HARTA KARUN. dimana beragam reward telah di sebar ke
                       beberapa titk dalam koordinat peta dan tugas dari pemain adalah
@@ -144,7 +144,7 @@ export default class Home extends Component {
                     </p>
                   </Row>
                   <Row>
-                    <p className='p_pg2'>
+                    <p className='pp_pg2'>
                       Augmented Reality atau AR adalah teknologi yang memperoleh
                       penggabungan secara real-time terhadap digital konten yang
                       dibuat oleh komputer dengan dunia nyata. Augmented Reality
@@ -153,7 +153,7 @@ export default class Home extends Component {
                     </p>
                   </Row>
                   <Row>
-                    <p className='p_pg2'>
+                    <p className='pp_pg2'>
                       Dengan teknologi tersebut NUBI GO mengembangkan sebuah
                       permainan ONLINE dimana dengan memainkan Game ini kita
                       bisa mengumpulkan Hadiah-hadiah dalam bentuk kepingan
