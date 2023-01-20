@@ -33,15 +33,15 @@ class Footer extends Component {
             <div>
                 <div style={{ background: `url(${footer})`, }} >
           <Row>
-            <Col lg={{span:3}} md={{span:3}} sm={{span:2}}  xs={{span:2}}>
+            <Col lg={{span:3}}  xs={{span:2}}>
 
             </Col>
-            <Col lg={{span:4}}  md={{span:4}} sm={{span:4}} xs={{span:4}} style={{marginTop:'70px',}}>
+            <Col lg={{span:4}}  xs={{span:4}} style={{marginTop:'70px',}}>
           <div className='logoo'>
           <Image  src={logo} />
           </div>
             </Col>
-            <Col lg={{span:8}}  md={{span:8}} sm={{span:16}} xs={{span:16}}>
+            <Col lg={{span:8}}   xs={{span:16}}>
                 <Row align='middle' justify='space-around'>
                   <Col span={12}>
                   <div className='down1'>
@@ -96,7 +96,7 @@ class Footer extends Component {
                 </Row>
             </Col>
             
-            <Col lg={{span:3}} md={{span:3}} sm={{span:10}} xs={{span:10}}style={{marginTop:'30px', marginLeft:'20px'}}>
+            <Col lg={{span:3}}  xs={{span:10}}style={{marginTop:'30px', marginLeft:'20px'}}>
              
             <div className='div_text'>
             <Row>
@@ -148,7 +148,7 @@ class Footer extends Component {
             </div>
                
              </Col>
-            <Col lg={{span:3}} md={{span:3}} sm={{span:2}} xs={{span:2}}>
+            <Col lg={{span:3}} xs={{span:2}}>
               
               </Col>
           </Row>

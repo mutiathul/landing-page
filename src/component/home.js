@@ -35,7 +35,7 @@ export default class Home extends Component {
     return (
       <div>
         <Header />
-         <div style={{ background: `url(${Bg1})`, width:'100%' }} >
+         {/* <div style={{ background: `url(${Bg1})`, width:'100%' }} >
           <Row >
             <Col lg={{span:10}} md={{span:24}} sm={{span:24}} xs={{span:24}}>
               
@@ -86,22 +86,9 @@ export default class Home extends Component {
                     </Col>
                   </Row>
 
-                  {/* <Row style={{marginLeft:'-10px'}}>
-            <Col span={12} style={{marginLeft:'-3px'}}>
-            <h3 style={{color:'white', marginTop:'-3em'}}>NUBI GO</h3>
-            </Col>
-            <Col span={12} style={{marginLeft:'-13px'}}>
-              <h3 style={{color:'white', marginTop:'-1px'}}>NUBI GO (NON AR)</h3>
-            </Col>
-          </Row> */}
+                 
                 </div>
-                {/* <div>
-         <text style={{color:'white', fontWeight:'400', fontSize:35,}}>TO NUBI GO</text>
-         </div>
-         <div>
-          <text style={{color:'white', fontWeight:'bold', textAlign:'left'}}>AUGMENTED REALITY</text>
-          
-         </div> */}
+                
 
               
             </Col>
@@ -451,7 +438,7 @@ export default class Home extends Component {
 
             </Col>
           </div>
-        </div>
+        </div> */}
         <Footer />
       </div>
     )
