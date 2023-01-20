@@ -33,7 +33,7 @@ class About extends Component {
         return (
             <div>
                 <Header />
-                {/* <div style={{ background: `url(${bg1})`, width:'auto' ,height:'auto'}} >
+                <div style={{ background: `url(${bg1})`, width:'auto' ,height:'auto'}} >
                     
                     <div style={{ background: `url(${footer})`, width:'auto' ,height:'auto',transform:'translateY(4em)'}}>
                         <Row align='middle'>
@@ -262,7 +262,7 @@ dunia nyata
                         </Col>
                     </Row>
                    </div>
-                </div> */}
+                </div>
                 <Footer />
             </div>
         );

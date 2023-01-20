@@ -143,12 +143,12 @@ and (max-device-width: 1024px) {
     .div_text {
         margin-top: -2em;
         margin-bottom: 1em;
-        margin-left:12em;
+        margin-left:1em;
         margin-top: 1em;
     }
     .div_textt {
         margin-top: 1em;
-        margin-left:-2em;
+        margin-left:1em;
         
      }
     .logoo 
@@ -161,14 +161,14 @@ and (max-device-width: 1024px) {
     
     .down1 {
         width: 130px;
-        margin-left: 5em;
+        margin-left: 1em;
         margin-bottom: 10px;
         
     }
     
     .down2 {
         width: 130px;
-        margin-left: -1em;
+        margin-left: 3em;
         margin-bottom: 10px;
     }
     .sosmed {

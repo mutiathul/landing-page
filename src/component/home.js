@@ -101,7 +101,7 @@ export default class Home extends Component {
           </Row>
         </div>
 
-        {/* <div className='bgg2'>
+        <div className='bgg2'>
           <Row >
             <Col lg={{span:12}} xs={{span:24}} sm={{span:24}}>
               <div style={{ display: 'flexbox', flexDirection: 'row', }}>
@@ -438,7 +438,7 @@ export default class Home extends Component {
 
             </Col>
           </div>
-        </div> */}
+        </div>
         <Footer />
       </div>
     )
