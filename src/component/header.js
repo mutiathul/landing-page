@@ -46,7 +46,7 @@ export default class header extends Component {
         <nav className="navigation" style={{ background: `url(${Bg1})`, }}>
 
           <div href="/" className="brand-name">
-            <Image width={150} src={logo}  />
+            <Image src={logo}  />
           </div>
 
           <Button
@@ -80,19 +80,19 @@ export default class header extends Component {
                 <a href="/about" style={{ color: 'white' }}>About Nubi</a>
               </li>
               <li>
-                <a href="/contact" style={{ color: 'white' }}>Feature</a>
+                <a href="" style={{ color: 'white' }}>Feature</a>
               </li>
               <li>
-                <a href="/contact" style={{ color: 'white' }}>Reward</a>
+                <a href="" style={{ color: 'white' }}>Reward</a>
               </li>
               <li>
-                <a href="/contact" style={{ color: 'white' }}>Event</a>
+                <a href="" style={{ color: 'white' }}>Event</a>
               </li>
               <li>
-                <a href="/contact" style={{ color: 'white' }}>News</a>
+                <a href="" style={{ color: 'white' }}>News</a>
               </li>
               <li>
-                <a href="/contact" style={{ color: 'white' }}>Contact us</a>
+                <a href="" style={{ color: 'white' }}>Contact us</a>
               </li>
               <li>
                 <Button type="primary" shape="round"

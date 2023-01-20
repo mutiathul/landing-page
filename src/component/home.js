@@ -34,7 +34,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        {/* <Header /> */}
+        <Header />
          <div style={{ background: `url(${Bg1})`, width:'100%' }} >
           <Row >
             <Col lg={{span:10}} md={{span:24}} sm={{span:24}} xs={{span:24}}>

@@ -30,6 +30,7 @@
     width: 70%;
     margin-top:15em;
     margin-left:5em;
+    margin-bottom: 5em;
 }
 .p_pg2 {
     color: black; 
@@ -72,9 +73,251 @@
 
     margin-top: 0;
 }
+.div_p2 {
+    margin-top: 18em;
+}
+.p2_bg {
 
+    background-image: url('../asset/about/bg2.jpg');
+  background-size:cover;
+ 
+  
+
+    
+   
+} 
+
+.div_asset {
+    display: flex;
+    margin-left: -10em;
+    transform: translateY(10em);
+} 
+
+.prev {
+
+    width: 60px;
+    margin-top: 10em;
+    margin-left: 20em;
+}
+
+.asset_2 {
+    width: 65%;
+    margin-top: 6em;
+    margin-left: 18em;
+
+}
+
+.asset_1 {
+    width:70%;
+    margin-left: 10em;
+}
+.asset_3 {
+    width: 60%;
+    margin-top: 5.5em;
+    margin-left: 2em;
+}
+.next {
+
+    width: 60px;
+    margin-top: 10em;
+    margin-left: -6em;
+}
+
+.div_pg3 {
+    margin-left: 6em;
+}
+
+.p_pg3 {
+
+    color: white;
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10em;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+.p2_pg3 {
+
+    color: white;
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 1em;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+.plink_pg3 {
+
+    color: white;
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 1em;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+.visi {
+    /* text-align: left; */
+    color: #1a92d7;
+    margin-top: 4em;
+    font-size: 35px;
+    font-weight: 600;
+  
+}
+.misi {
+    /* text-align: left; */
+    color: #1a92d7;
+    /* margin-top: 4em; */
+    font-size: 35px;
+    font-weight: 600;
+  
+}
+
+
+.pp_title {
+
+    text-align: left;
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title {
+    margin-top: 2em;
+    font-size: 40px;
+    font-weight: 600;
+    color: #1a92d7;
+}
+
+.asset_pg4 {
+    margin-top: 7em;
+    margin-bottom: 3em;
+    width: 45%;
+    margin-left: 13em;
+}
 @media screen and (max-device-width: 350px)
 and (orientation: portrait) {
+
+    .title{
+
+        font-size: 20px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .visi {
+
+        font-size: 20px;
+        margin-top: 1em;
+       
+    }
+    .misi {
+
+        font-size: 20px;
+        /* margin-top: 1em; */
+       
+    }
+    .pp_title{
+
+        font-size: 14px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .asset_pg4 {
+
+        margin-left: 6em;
+        margin-top: 1em;
+    }
+    .div_pg3 {
+        margin-left: 5em;
+        margin-right: 10px;
+        margin-bottom: 5em;
+        margin-top: -15px;
+    }
+
+    .p_pg3 {
+
+        font-size: 8px;
+        margin-left: -3em;
+    }
+    .p2_pg3 {
+    
+        font-size: 8px;
+        margin-left: -3em;
+    }
+    .plink_pg3 {
+    
+        font-size: 8px;
+        margin-left: -3em;
+        font-weight: bold;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: 3px;
+        margin-right: 3px;
+        transform: translateY(2em);
+    } 
+    
+    .prev {
+    
+        width: 20px;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 1em;
+    }
+    .asset_3 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .next {
+    
+        width: 20px;
+        margin-top: 2em;
+        margin-left: -2.5em;
+    }
+    
+    .asset2 {
+
+        width: 110%;
+      margin-top: 6em;
+      margin-left: 2em;
+      display: none;
+      
+    }
+    .p_pg2 {
+
+        font-size: 8px;
+       
+       
+    }
+    .p2_pg2 {
+
+        font-size:8px;
+      
+    }
+    .div_p2 {
+        margin-top:4em;
+        margin-left: -3em;
+        margin-bottom: 4em;
+    
+       
+       
+        
+    }
 
     .asset1 {
 
@@ -126,6 +369,127 @@ and (orientation: portrait) {
 
 @media screen and (min-device-width: 351px)
 and (max-device-width: 408px) {
+
+    .title{
+
+        font-size: 20px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .visi {
+
+        font-size: 20px;
+        margin-top: 1em;
+       
+    }
+    .misi {
+
+        font-size: 20px;
+        /* margin-top: 1em; */
+       
+    }
+    .pp_title{
+
+        font-size: 14px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .asset_pg4 {
+
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+
+    .div_pg3 {
+        margin-left: 5em;
+        margin-right: 10px;
+        margin-bottom: 5em;
+        margin-top: -30px;
+    }
+
+    .p_pg3 {
+
+        font-size: 9px;
+        margin-left: -3em;
+    }
+    .p2_pg3 {
+    
+        font-size: 9px;
+        margin-left: -3em;
+    }
+    .plink_pg3 {
+    
+        font-size: 9px;
+        margin-left: -3em;
+        font-weight: bold;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: 3px;
+        margin-right: 3px;
+        transform: translateY(2em);
+    } 
+    
+    .prev {
+    
+        width: 20px;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 1em;
+    }
+    .asset_3 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .next {
+    
+        width: 20px;
+        margin-top: 2em;
+        margin-left: -2.5em;
+    }
+    
+    .asset2 {
+
+        width: 80%;
+      margin-top: 10em;
+      margin-left: 2em;
+  
+      
+    }
+    .p_pg2 {
+
+        font-size: 8px;
+       
+       
+    }
+    .p2_pg2 {
+
+        font-size:8px;
+      
+    }
+    .div_p2 {
+        margin-top:4em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 4em;
+    
+       
+       
+        
+    }
     .asset1 {
 
         margin-bottom: 5em;
@@ -176,6 +540,124 @@ and (max-device-width: 408px) {
 
 @media screen and (min-device-width: 409px)
 and (max-device-width: 460px) {
+    .title{
+
+        font-size: 20px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .visi {
+
+        font-size: 20px;
+        margin-top: 1em;
+       
+    }
+    .misi {
+
+        font-size: 20px;
+        /* margin-top: 1em; */
+       
+    }
+    .pp_title{
+
+        font-size: 14px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .asset_pg4 {
+
+        margin-left: 7em;
+        margin-top: 2em;
+    }
+    .div_pg3 {
+        margin-left: 5em;
+        margin-right: 10px;
+        margin-bottom: 5em;
+        margin-top: -40px;
+    }
+
+    .p_pg3 {
+
+        font-size: 10px;
+        margin-left: -3em;
+    }
+    .p2_pg3 {
+    
+        font-size: 10px;
+        margin-left: -3em;
+    }
+    .plink_pg3 {
+    
+        font-size: 10px;
+        margin-left: -3em;
+        font-weight: bold;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: 3px;
+        margin-right: 3px;
+        transform: translateY(2em);
+    } 
+    
+    .prev {
+    
+        width: 20px;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 1em;
+    }
+    .asset_3 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .next {
+    
+        width: 20px;
+        margin-top: 2em;
+        margin-left: -2.5em;
+    }
+    .asset2 {
+
+        width: 80%;
+      margin-top: 10em;
+      margin-left: 2em;
+  
+      
+    }
+    .p_pg2 {
+
+        font-size:10px ;
+       
+       
+    }
+    .p2_pg2 {
+
+        font-size:10px;
+      
+    }
+    .div_p2 {
+        margin-top:4em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 4em;
+    
+       
+       
+        
+    }
     .asset1 {
 
         margin-bottom: 5em;
@@ -226,6 +708,125 @@ and (max-device-width: 460px) {
 
 @media screen and (min-device-width: 461px)
 and (max-device-width: 499px) {
+    .title{
+
+        font-size: 20px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .visi {
+
+        font-size: 20px;
+        margin-top: 1em;
+       
+    }
+    .misi {
+
+        font-size: 20px;
+        /* margin-top: 1em; */
+       
+    }
+    .pp_title{
+
+        font-size: 14px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .asset_pg4 {
+
+        margin-left: 7em;
+        margin-top: 2em;
+    }
+
+    .div_pg3 {
+        margin-left: 5em;
+        margin-right: 10px;
+        margin-bottom: 5em;
+        margin-top: -40px;
+    }
+
+    .p_pg3 {
+
+        font-size: 10px;
+        margin-left: -3em;
+    }
+    .p2_pg3 {
+    
+        font-size: 10px;
+        margin-left: -3em;
+    }
+    .plink_pg3 {
+    
+        font-size: 10px;
+        margin-left: -3em;
+        font-weight: bold;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: 3px;
+        margin-right: 3px;
+        transform: translateY(2em);
+    } 
+    
+    .prev {
+    
+        width: 20px;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 1em;
+    }
+    .asset_3 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .next {
+    
+        width: 20px;
+        margin-top: 2em;
+        margin-left: -2.5em;
+    }
+    .asset2 {
+
+        width: 80%;
+      margin-top: 10em;
+      margin-left: 2em;
+  
+      
+    }
+    .p_pg2 {
+
+        font-size:10px ;
+       
+       
+    }
+    .p2_pg2 {
+
+        font-size:10px;
+      
+    }
+    .div_p2 {
+        margin-top:4em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 4em;
+    
+       
+       
+        
+    }
     .asset1 {
 
         margin-bottom: 5em;
@@ -276,6 +877,125 @@ and (max-device-width: 499px) {
 
 @media screen and (min-device-width: 500px)
 and (max-device-width: 647px) {
+    .title{
+
+        font-size: 20px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .visi {
+
+        font-size: 20px;
+        margin-top: 1em;
+       
+    }
+    .misi {
+
+        font-size: 20px;
+        /* margin-top: 1em; */
+       
+    }
+    .pp_title{
+
+        font-size: 14px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .asset_pg4 {
+
+        margin-left: 12em;
+        margin-top: 2em;
+        width: 35%;
+    }
+    .div_pg3 {
+        margin-left: 5em;
+        margin-right: 10px;
+        margin-bottom: 5em;
+        margin-top: -40px;
+    }
+
+    .p_pg3 {
+
+        font-size: 11px;
+        margin-left: -3em;
+    }
+    .p2_pg3 {
+    
+        font-size: 11px;
+        margin-left: -3em;
+    }
+    .plink_pg3 {
+    
+        font-size: 11px;
+        margin-left: -3em;
+        font-weight: bold;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: 3px;
+        margin-right: 3px;
+        transform: translateY(2em);
+    } 
+    
+    .prev {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 1em;
+    }
+    .asset_3 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .next {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: -2.5em;
+    }
+    .asset2 {
+
+        width: 90%;
+      margin-top: 10em;
+      margin-left: 2em;
+  
+      
+    }
+    .p_pg2 {
+
+        font-size:12px ;
+       
+       
+    }
+    .p2_pg2 {
+
+        font-size:12px;
+      
+    }
+    .div_p2 {
+        margin-top:7em;
+        margin-left: 2em;
+        margin-right: 1em;
+        margin-bottom: 5em;
+    
+       
+       
+        
+    }
 
     .asset1 {
 
@@ -326,7 +1046,126 @@ and (max-device-width: 647px) {
 }
 @media screen and (min-device-width: 648px)
 and (max-device-width: 767px) {
+    .title{
 
+        font-size: 20px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .visi {
+
+        font-size: 20px;
+        margin-top: 1em;
+       
+    }
+    .misi {
+
+        font-size: 20px;
+        /* margin-top: 1em; */
+       
+    }
+    .pp_title{
+
+        font-size: 14px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .asset_pg4 {
+
+        margin-left: 15em;
+        margin-top: 2em;
+        width: 30%;
+    }
+
+    .div_pg3 {
+        margin-left: 5em;
+        margin-right: 10px;
+        margin-bottom: 5em;
+        margin-top: -40px;
+    }
+
+    .p_pg3 {
+
+        font-size: 11px;
+        margin-left: -3em;
+    }
+    .p2_pg3 {
+    
+        font-size: 11px;
+        margin-left: -3em;
+    }
+    .plink_pg3 {
+    
+        font-size: 11px;
+        margin-left: -3em;
+        font-weight: bold;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: 3px;
+        margin-right: 3px;
+        transform: translateY(2em);
+    } 
+    
+    .prev {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 1em;
+    }
+    .asset_3 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .next {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: -2.5em;
+    }
+    .asset2 {
+
+        width: 90%;
+      margin-top: 10em;
+      margin-left: 2em;
+  
+      
+    }
+    .p_pg2 {
+
+        font-size:12px ;
+       
+       
+    }
+    .p2_pg2 {
+
+        font-size:12px;
+      
+    }
+    .div_p2 {
+        margin-top:7em;
+        margin-left: 2em;
+        margin-right: 1em;
+        margin-bottom: 5em;
+    
+       
+       
+        
+    }
     .asset1 {
 
         margin-bottom: 5em;
@@ -377,6 +1216,128 @@ and (max-device-width: 767px) {
 
 @media screen and (min-device-width: 768px)
 and (max-device-width: 890px)  {
+
+    .title{
+
+        font-size: 25px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .visi {
+
+        font-size: 20px;
+        margin-top: 1em;
+        /* margin-left: -4em; */
+       
+    }
+    .misi {
+
+        font-size: 20px;
+        margin-top: 1em;
+        /* margin-left: -4em; */
+       
+    }
+    .pp_title{
+
+        font-size: 14px;
+        /* margin-left: 2em; */
+        margin-right: -6em;
+    }
+    .asset_pg4 {
+
+        margin-left: 15em;
+        margin-top: 2em;
+        width: 40%;
+    }
+    .div_pg3 {
+        margin-left: 10em;
+        margin-right: 10px;
+        margin-bottom: 5em;
+        margin-top: -50px;
+    }
+
+    .p_pg3 {
+
+        font-size: 12px;
+        margin-left: -3em;
+    }
+    .p2_pg3 {
+    
+        font-size: 12px;
+        margin-left: -3em;
+    }
+    .plink_pg3 {
+    
+        font-size: 12px;
+        margin-left: -3em;
+        font-weight: bold;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: 3em;
+        margin-right: 3px;
+        transform: translateY(2em);
+    } 
+    
+    .prev {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 1em;
+    }
+    .asset_3 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .next {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: -2.5em;
+    }
+    .asset2 {
+
+        width: 100%;
+      margin-top: 15em;
+      margin-left: 2em;
+  
+      
+    }
+    .p_pg2 {
+
+        font-size:12px ;
+       
+       
+    }
+    .p2_pg2 {
+
+        font-size:12px;
+      
+    }
+    .div_p2 {
+        margin-top:13em;
+        margin-left: 3em;
+        margin-right: 1em;
+        margin-bottom: 5em;
+    
+       
+       
+        
+    }
     .asset1 {
 
         margin-bottom: 5em;
@@ -428,6 +1389,128 @@ and (max-device-width: 890px)  {
 
 @media screen and (min-device-width: 891px)
 and (max-device-width: 991px) {
+    .title{
+
+        font-size: 30px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .visi {
+
+        font-size: 25px;
+        margin-top: 1em;
+        /* margin-left: -3em; */
+       
+    }
+    .misi {
+
+        font-size: 25px;
+        /* margin-top: 1em; */
+        /* margin-left: -3em; */
+       
+    }
+    .pp_title{
+
+        font-size: 16px;
+        /* margin-left: 4em; */
+        margin-right: -6em;
+    }
+    .asset_pg4 {
+
+        margin-left: 17em;
+        margin-top: 2em;
+        width: 40%;
+    }
+
+    .div_pg3 {
+        margin-left: 10em;
+        margin-right: 10px;
+        margin-bottom: 5em;
+        margin-top: -50px;
+    }
+
+    .p_pg3 {
+
+        font-size: 12px;
+        margin-left: -3em;
+    }
+    .p2_pg3 {
+    
+        font-size: 12px;
+        margin-left: -3em;
+    }
+    .plink_pg3 {
+    
+        font-size: 12px;
+        margin-left: -3em;
+        font-weight: bold;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: 3em;
+        margin-right: 3px;
+        transform: translateY(2em);
+    } 
+    
+    .prev {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 1em;
+    }
+    .asset_3 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .next {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: -2.5em;
+    }
+    .asset2 {
+
+        width: 100%;
+      margin-top: 15em;
+      margin-left: 2em;
+  
+      
+    }
+    .p_pg2 {
+
+        font-size:15px ;
+       
+       
+    }
+    .p2_pg2 {
+
+        font-size:15px;
+      
+    }
+    .div_p2 {
+        margin-top:13em;
+        margin-left: 3em;
+        margin-right: 1em;
+        margin-bottom: 5em;
+    
+       
+       
+        
+    }
     .asset1 {
 
         margin-bottom: 5em;
@@ -479,6 +1562,127 @@ and (max-device-width: 991px) {
 
 @media screen and (min-device-width: 992px)
 and (max-device-width: 1200px) {
+    .title{
+
+        font-size: 30px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .visi {
+
+        font-size: 25px;
+        margin-top: 1em;
+        /* margin-left: -4em; */
+       
+    }
+    .misi {
+
+        font-size: 25px;
+        /* margin-top: 1em; */
+        /* margin-left: -4em; */
+       
+    }
+    .pp_title{
+
+        font-size: 16px;
+        /* margin-left: 4em; */
+        margin-right: -8em;
+    }
+    .asset_pg4 {
+
+        margin-left: 15em;
+        margin-top: 2em;
+        width: 40%;
+    }
+    .div_pg3 {
+        margin-left: 5em;
+        margin-right: 10px;
+        margin-bottom: 5em;
+        margin-top: -50px;
+    }
+
+    .p_pg3 {
+
+        font-size: 16px;
+        margin-left: -3em;
+    }
+    .p2_pg3 {
+    
+        font-size: 16px;
+        margin-left: -3em;
+    }
+    .plink_pg3 {
+    
+        font-size: 16px;
+        margin-left: -3em;
+        font-weight: bold;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: 3em;
+        margin-right: 3px;
+        transform: translateY(2em);
+    } 
+    
+    .prev {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: 3em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 1em;
+    }
+    .asset_3 {
+        width: 65%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .next {
+    
+        width: 30px;
+        margin-top: 2em;
+        margin-left: -2.5em;
+    }
+    .asset2 {
+
+        width: 70%;
+      margin-top: 15em;
+      margin-left: 2em;
+  
+      
+    }
+    .p_pg2 {
+
+        font-size:17px ;
+       
+       
+    }
+    .p2_pg2 {
+
+        font-size:17px;
+      
+    }
+    .div_p2 {
+        margin-top:13em;
+        margin-left: -3em;
+        margin-right: 1em;
+        margin-bottom: 5em;
+    
+       
+       
+        
+    }
     .asset1 {
 
         margin-bottom: 5em;
@@ -529,6 +1733,143 @@ and (max-device-width: 1200px) {
 }
 
 @media screen and (min-width: 1201px) {
+
+    .visi {
+        /* text-align: left; */
+        color: #1a92d7;
+        margin-top: 4em;
+        font-size: 35px;
+        font-weight: 600;
+      
+    }
+    .misi {
+        /* text-align: left; */
+        color: #1a92d7;
+        /* margin-top: 4em; */
+        font-size: 35px;
+        font-weight: 600;
+      
+    }
+    
+    
+    .pp_title {
+    
+        text-align: left;
+        color: grey;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .title {
+        margin-top: 2em;
+        font-size: 40px;
+        font-weight: 600;
+        color: #1a92d7;
+    }
+    
+    .asset_pg4 {
+        margin-top: 7em;
+        margin-bottom: 3em;
+        width: 45%;
+        margin-left: 13em;
+    }
+    .div_asset {
+        display: flex;
+        margin-left: -10em;
+        transform: translateY(10em);
+    } 
+    
+    .prev {
+    
+        width: 60px;
+        margin-top: 10em;
+        margin-left: 20em;
+    }
+    
+    .asset_2 {
+        width: 65%;
+        margin-top: 6em;
+        margin-left: 18em;
+    
+    }
+    
+    .asset_1 {
+        width:70%;
+        margin-left: 10em;
+    }
+    .asset_3 {
+        width: 60%;
+        margin-top: 5.5em;
+        margin-left: 2em;
+    }
+    .next {
+    
+        width: 60px;
+        margin-top: 10em;
+        margin-left: -6em;
+    }
+    
+    .div_pg3 {
+        margin-left: 6em;
+    }
+    
+    .p_pg3 {
+    
+        color: white;
+        font-weight: 400;
+        text-align: left;
+        font-size: 20px;
+        margin-top: 10em;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    .p2_pg3 {
+    
+        color: white;
+        font-weight: 400;
+        text-align: left;
+        font-size: 20px;
+        margin-top: 1em;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    .plink_pg3 {
+    
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        font-size: 20px;
+        margin-top: 1em;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    .asset2{
+        width: 70%;
+        margin-top:15em;
+        margin-left:5em;
+        margin-bottom: 5em;
+    }
+    .p_pg2 {
+        color: black; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 16px; 
+        margin-top: 10px; 
+        margin-right: 30px; 
+        margin-left: 5px 
+    }
+    .p2_pg2 {
+        color: black; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 16px; 
+        margin-top: 10px; 
+        margin-right: 30px; 
+        margin-left: 5px 
+    }
+    .div_p2 {
+        margin-top: 18em;
+    }
     .div_p1 {
 
         margin-top: 0;

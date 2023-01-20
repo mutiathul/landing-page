@@ -32,7 +32,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                {/* <Header /> */}
+                <Header />
                 <div style={{ background: `url(${bg1})`, width:'auto' ,height:'auto'}} >
                     
                     <div style={{ background: `url(${footer})`, width:'auto' ,height:'auto',transform:'translateY(4em)'}}>
@@ -113,18 +113,19 @@ class About extends Component {
                         </Row>
                     </div>
                 </div>
-                {/* <div style={{ background: `url(${bg2})`, width:'100vw' ,height:'140vh',backgroundSize:'90%',backgroundRepeat:'no-repeat'}} >
+                <div className='p2_bg' >
                 <div>
                     <Row>
                      
-                        <Col span={14}  >
+                        <Col lg={{span:14}} xs={{span:8}} >
                             <div className='asset2'>
                             <Image src={asset2}  preview={false} />
 
                             </div>
                         </Col>
-                        <Col span={9} >
-                        <Row style={{marginTop:'18em'}}>
+                        <Col lg={{span:9}} xs={{span:16}}>
+                      <div className='div_p2'>
+                      <Row >
                             <p className='p_pg2'>
                             Salah satu yang mungkin juga menjadi daya tarik dari game
                             NUBI GO adalah player dapat berburu ribuan hadiah menarik
@@ -143,99 +144,125 @@ class About extends Component {
                         NUBI GO ini dan mengclaim hadiah tersebut.
                         </p>
                     </Row>
+                      </div>
                         
                         </Col>
                         
                     </Row>
                 </div>
                 </div>
-                <div style={{ background: `url(${bg3})`, width:'100vw' ,height:'210vh',backgroundSize:'100%',backgroundRepeat:'no-repeat'}} >
-                    <div>
-                        <Row align='middle' justify='center' style={{transform:'translateY(10em)'}}>
-                        <Image src={prev} width={80} preview={false} style={{marginTop:'10em',marginLeft:'-6em'}}/>
-                        <Image src={asset_2} width='20%' preview={false} style={{marginTop:'10em',}}/>
-                        <Image src={asset_1} width='30%' preview={false} />
-                        <Image src={asset_3} width='20%' preview={false} style={{marginTop:'8.9em',}} />
-                        <Image src={next} width={80} preview={false} style={{marginTop:'10em',marginLeft:'50px'}}/>
-                        </Row>
+                <div style={{ background: `url(${bg3})`, width:'auto' ,height:'auto',backgroundSize:'cover',}} >
+                    <div> 
+                        <div className='div_asset'>
+                        <Row align='middle' justify='space-between' >
+                     
+                        <Col span={2}>
+                        <div className='prev'>
+                       <Image src={prev}  preview={false}/>
+                       </div>
+                        </Col>
+                        <Col span={6}>
+                        <div className='asset_2'>
+                       <Image src={asset_2}  preview={false} />
+                       </div>
+                        </Col>
+
+                        <Col span={8}>
+                        <div className='asset_1'>
+                       <Image src={asset_1}  preview={false}  />
+                        
+                       </div>
+                        </Col>
+
+                        <Col span={6}>
+                        <div className='asset_3'>
+                       <Image src={asset_3}  preview={false}  />
+                       
+                       </div>
+                        </Col>
+
+                       <Col span={2}>
+                       <div className='next'>
+                       <Image src={next}  preview={false} />
+                       
+                       </div>
+                       </Col>
+                       </Row>
+                      </div>
+                        
                     </div>
                    
                   <Row >
-                    <Col span={4}>
+                    <Col lg={{span:4}} xs={{span:2}}>
 
                     </Col>
-                    <Col span={16}>
-                    <p style={{ color: 'white', fontWeight: '400', textAlign: 'left', fontSize: 20, marginTop: '10em', marginRight: '30px', marginLeft: '5px' }}>
+                    <Col lg={{span:16}}  xs={{span:20}}>
+                   <div className='div_pg3'>
+                   <p className='p_pg3'>
                     Untuk Memaminkan game NUBI GO unu bisa di download pada link
                     dibawah ini:
 
                     </p>
-                    <p onClick={this.onClickNubiGo} style={{ color: 'white', fontWeight: '400', textAlign: 'left', fontSize: 20, marginTop: '1em', marginRight: '30px', marginLeft: '5px' }}>
+                    <p onClick={this.onClickNubiGo} className='plink_pg3'>
                     https://play.google.com/store/apps/details?id=com.NubiGames.NubiGo
 
                     </p>
-                    <p style={{ color: 'white', fontWeight: '400', textAlign: 'left', fontSize: 20, marginTop: '1em', marginRight: '30px', marginLeft: '5px' }}>
+                    <p className='p2_pg3'>
                     Game ini menggunakan Teknologi Augmented Reality dan HARUS & WAJIB 
 menggunkan HP yang mensupport Teknologi AR. Jadi jika HP yang
 tidak mensupport teknologi AR maka tidak bisa mendownload game ini.
 Namun ada beberapa jenis HP yang tidak mendukung Teknologi AR
 sehinnga kami menyediakan aplikasi kedua yaitu : 
                     </p>
-                    <p onClick={this.onClickNubiGoNoAR} style={{ color: 'white', fontWeight: '400', textAlign: 'left', fontSize: 20, marginTop: '1em', marginRight: '30px', marginLeft: '5px' }} >
+                    <p onClick={this.onClickNubiGoNoAR} className='plink_pg3' >
                     https://play.google.com/store/apps/details?id=com.NubiGames.NubiGoNoAR
 
                     </p>
+                   </div>
                     </Col>
-                    <Col span={4}>
+                    <Col lg={{span:4}}  xs={{span:2}}>
 
 </Col>
                   </Row>
                    <div>
                     </div> 
                 </div>
-                <div style={{ background: `url(${bg4})`, width:'100vw' ,height:'auto',backgroundSize:'100%',backgroundRepeat:'no-repeat'}} >
+                <div style={{ background: `url(${bg4})`, width:'100vw' ,height:'auto',backgroundSize:'cover',}} >
                    <div>
                     <Row align='middle' justify='center'>
-                        <text style={{marginTop:'3em',color:'#1a92d7',
-                        fontSize:40, fontWeight:'600'
-                    }}>VISI DAN MISI NUBI GAME</text>
+                        <p className='title'>VISI DAN MISI NUBI GAME</p>
                     </Row>
                     <Row >
-                        <Col span={2}></Col>
-                        <Col span={8}>
-                        <h1 style={{marginTop:'4em',color:'#1a92d7',
-                        fontSize:35, fontWeight:'600'
-                    }}>Visi Nobi Game</h1>
-                        <p style={{textAlign:'left',color:'grey',
-                        fontSize:16, fontWeight:'400'}}>Menjadi developer game dengan konsep yang unik di indonesia
+                        <Col md={{span:2}} xs={{span:2}}></Col>
+                        <Col md={{span:8}} xs={{span:24}}>
+                        <h1 className='visi'>Visi Nobi Game</h1>
+                        <p className='pp_title'>Menjadi developer game dengan konsep yang unik di indonesia
                             dan membawa karya anak bangsake kancah internasional.
                         </p>
-                        <h1 style={{color:'#1a92d7',
-                        fontSize:35, fontWeight:'600'}}>Misi Nobi Game</h1>
-                        <p style={{textAlign:'left',color:'grey',
-                        fontSize:16, fontWeight:'400'}}>
+                        <h1 className='misi'>Misi Nobi Game</h1>
+                        <p className='pp_title'>
                         Mengembangkan sistem terbaru dan terunik yang belum pernah
                         ada sebelumnya.
                         </p>
-                        <p style={{textAlign:'left',color:'grey',
-                        fontSize:16, fontWeight:'400'}}>
+                        <p className='pp_title'>
                         Mengembangkan Suatu permainan dimana dengan sambil bermain
 bisa mendapatkan berbagai macam hadiah.
                         </p>
-                        <p style={{textAlign:'left',color:'grey',
-                        fontSize:16, fontWeight:'400'}}>
+                        <p className='pp_title'>
                         Mengembangkan suatu permainan dengan konsep FIND2EARN dimana 
 para pemain dapat berpetualang mencari hadia-hadiah yang 
 tersebar dalam dunia maya yang bisa di hadirkan ke dalam
 dunia nyata
                         </p>
                         </Col>
-                        <Col span={14} >
-                        <Image src={visi} width='50%' preview={false} style={{marginTop:'8em',marginBottom:'3em'}}/>
+                        <Col md={{span:14}} xs={{span:24}}>
+                       <div className='asset_pg4'>
+                       <Image src={visi} preview={false} />
+                       </div>
                         </Col>
                     </Row>
                    </div>
-                </div> */}
+                </div>
                 <Footer />
             </div>
         );
