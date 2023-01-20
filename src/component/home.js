@@ -35,7 +35,7 @@ export default class Home extends Component {
     return (
       <div>
         <Header />
-         {/* <div style={{ background: `url(${Bg1})`, width:'100%' }} >
+         <div style={{ background: `url(${Bg1})`, width:'100%' }} >
           <Row >
             <Col lg={{span:10}} md={{span:24}} sm={{span:24}} xs={{span:24}}>
               
@@ -101,7 +101,7 @@ export default class Home extends Component {
           </Row>
         </div>
 
-        <div className='bgg2'>
+        {/* <div className='bgg2'>
           <Row >
             <Col lg={{span:12}} xs={{span:24}} sm={{span:24}}>
               <div style={{ display: 'flexbox', flexDirection: 'row', }}>

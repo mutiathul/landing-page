@@ -234,7 +234,435 @@
     margin-top: 0;
 }
 
-@media screen and (max-device-width: 350px)
+@media screen and (max-device-width: 480px) {
+    .image_pg2 {
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
+    }
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+    }
+    .row_pp2 {
+        margin-top: -1em;
+    }
+    .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 20px;
+        margin-left:0em;
+        margin-top: -5em;
+    }
+    .div_find {
+        margin-top: -5em;
+    }
+    
+    .find_imagee {
+
+        width: 20px;
+        margin-left: 2em;
+        
+    }
+    .find {
+
+        font-size: 10px;
+        margin-left: 0.5em;
+    }
+    .find_imagee2 {
+
+        width: 20px;
+        margin-left: -1em;
+    }
+    .find2 {
+
+        font-size: 10px;
+        margin-left: -7em;
+    }
+    .faq{
+
+        font-size: 16px;
+        margin-left: 25em;
+    }
+    .box {
+
+        width: 200px;
+        margin-left: 30em;
+    }
+    .box1 {
+
+        width: 200px;
+        margin-left: 30em;
+    }
+    .box2 {
+
+        width: 200px;
+        margin-left: 30em;
+    }
+    .faq_font {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 1em;
+    }
+
+    .faq_lore {
+        font-size: 8px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 16px;
+        margin-left:23em;
+    }
+    .partner {
+        font-size: 30px;
+            margin-left: -5em;
+            margin-right: 1em;
+            margin-top: 3em;
+        }
+        .p_partner {
+            margin-top: -1em;
+            margin-left: -17em;
+            margin-right: 2em;
+            font-size: 12px;
+        }
+    .page1 {
+        margin-top: 6em;
+        display: flexbox;
+        margin-left: 5em;
+    }
+    .welcome {
+        color: white;
+        font-weight: bolder; 
+        font-size: 40px; 
+        letter-spacing: 2px;
+        margin-left: -0.8em;
+    }
+    .nubiText {
+        color: white;
+         font-weight: 400; 
+         font-size: 25px;
+         letter-spacing: 2px;
+         margin-left: -1em;
+    }
+    .ar {
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+        
+        letter-spacing: 2px;
+        margin-left: -1.9em;
+    }
+    .pp_pg1{
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 14px; 
+        margin-top: 10px; 
+        margin-right: 30px;
+        margin-left: -1.7em
+    }
+    .p11_pg1 {
+        color: white; 
+        font-weight: 400;
+        text-align: left; 
+        font-size: 12; 
+        margin-top: 0.3em; 
+        margin-right: 30px; 
+        margin-left: -1.7em; 
+       
+    }
+    .dww1 {
+        width: 150px;
+        margin-top: -2em;
+        margin-left: -3.7em;
+    }
+    .dww2 {
+        width: 150px;
+        margin-top: -2em;
+        margin-left: -3em;
+    }
+    .banner {
+        margin-bottom: 5em;
+    }
+
+}
+@media screen and (max-device-width: 767px){
+    .image_pg2 {
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
+    }
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+    }
+    .row_pp2 {
+        margin-top: -1em;
+    }
+    .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 30px;
+        margin-left:2em;
+        margin-top: -4em;
+    }
+    .div_find {
+        margin-top: -5em;
+    }
+    
+    .find_imagee {
+
+        width: 25px;
+        margin-left: 6em;
+        
+    }
+    .find {
+
+        font-size: 14px;
+        margin-left: 3em;
+    }
+    .find_imagee2 {
+
+        width: 25px;
+        margin-left: 1em;
+    }
+    .find2 {
+
+        font-size: 14px;
+        margin-left: -7em;
+    }
+    .faq{
+
+        font-size: 18px;
+        margin-left: 22em;
+    }
+    .box {
+
+        width: 500px;
+        margin-left: 29em;
+        
+    }
+    .box1 {
+
+        width: 500px;
+        margin-left: 29em;
+    }
+    .box2 {
+
+        width: 500px;
+        margin-left: 29em;
+    }
+    .faq_font {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 3em;
+    }
+
+    .faq_lore {
+        font-size: 10px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 16px;
+        margin-left:27em;
+    }
+    .partner {
+        font-size: 30px;
+            margin-left: -1em;
+            margin-right: 1em;
+            margin-top: 2em;
+        }
+        .p_partner {
+            margin-top: -1em;
+            margin-left: -15em;
+            margin-right: 5em;
+            font-size: 12px;
+        }
+    .banner {
+        margin-top: -1em;
+        width: 80%;
+        margin-left: 4.5em;
+        margin-bottom: 5em;
+    }
+}
+
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .image_pg2 {
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
+    }
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+    }
+    .row_pp2 {
+        margin-top: -1em;
+    }
+    .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 50px;
+        letter-spacing: 6px;
+        margin-left:1.5em;
+        margin-top: -1.5em;
+    }
+    .div_find {
+        margin-top: 1em;
+    }
+    
+    .find_imagee {
+
+        width:35px;
+        margin-left: 10em;
+        
+    }
+    .find {
+
+        font-size: 18px;
+        margin-left: 2em;
+    }
+    .find_imagee2 {
+
+        width: 35px;
+        margin-left: 4em;
+    }
+    .find2 {
+
+        font-size: 18px;
+        margin-left: -7em;
+    }
+    .faq{
+
+        font-size: 18px;
+        margin-left: 30em;
+    }
+    .box {
+
+        width: 500px;
+        margin-left: 37em;
+        
+    }
+    .box1 {
+
+        width: 500px;
+        margin-left: 37em;
+    }
+    .box2 {
+
+        width: 500px;
+        margin-left: 37em;
+    }
+    .faq_font {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 3em;
+    }
+
+    .faq_lore {
+        font-size: 10px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 23px;
+        margin-left:25em;
+    }
+    .partner {
+        margin-left: 5em;
+        margin-top: 3em;
+    }
+    .p_partner{
+        margin-left: -5em;
+        margin-right: 5em;
+        margin-top: -1em;
+    }
+    .banner {
+        margin-top: -1em;
+        width: 60%;
+        margin-left: 10em;
+        margin-bottom: 5em;
+    }
+
+    .dww1 {
+        width: 200px;
+        margin-top: -2em;
+        margin-left: -4em;
+    }
+    .dww2 {
+        width: 200px;
+        margin-top: -2em;
+        margin-left: -10em;
+    }
+}
+/* @media screen and (max-device-width: 350px)
 and (orientation: portrait) {
 
     .image_pg2 {
@@ -349,44 +777,7 @@ font-size: 30px;
     margin-right: 2em;
     font-size: 12px;
 }
-    /* .image_pg2 {
-        margin-left: 7.5em;
-        width: 100px;
-        margin-top: -2.5em;
-    }
-
-    .image2_pg2 {
-        margin-left: 2em;
-        width: 80%;
-        margin-top: -1em;
-    }
-    .row_pp2 {
-        margin-top: -3em;
-        margin-left: -2em;
-    }
-    .pp_pg2 {
-
-        font-size: 10px;
-        
-    }
-    .ar2 {
-        font-size: 16px;
-        margin-top: -6em;
-        margin-left: -2.5em;
-    }
-
-    .find_imagee {
-        width: 20px;
-        margin-top: -4.5em;
-        margin-left: -1.3em;
-    }
-    .find {
-        font-size: 10px;
-        margin-top: -1.5em;
-        margin-left: -3em;
-    } */
-
-    /* Page Pertama */
+   
     .page1 {
         margin-top: 6em;
         display: flexbox;
@@ -411,7 +802,7 @@ font-size: 30px;
         font-weight: bold;
         font-size: 15px;
         margin-top: 10px;
-        /* text-indent: 5px; */
+       
         letter-spacing: 2px;
         margin-left: -1.9em;
     }
@@ -449,9 +840,9 @@ font-size: 30px;
         margin-bottom: 5em;
     }
 
-}
+} */
 
-@media screen and (min-device-width: 351px)
+/* @media screen and (min-device-width: 351px)
 and (max-device-width: 400px) {
     .image_pg2 {
 
@@ -564,44 +955,7 @@ and (max-device-width: 400px) {
             margin-right: 2em;
             font-size: 12px;
         }
-    /* .image_pg2 {
-        margin-left: 7.5em;
-        width: 100px;
-        margin-top: -2.5em;
-    }
-
-    .image2_pg2 {
-        margin-left: 2em;
-        width: 80%;
-        margin-top: -1em;
-    }
-    .row_pp2 {
-        margin-top: -3em;
-        margin-left: -2em;
-    }
-    .pp_pg2 {
-
-        font-size: 10px;
-        
-    }
-    .ar2 {
-        font-size: 16px;
-        margin-top: -6em;
-        margin-left: -2.5em;
-    }
-
-    .find_imagee {
-        width: 20px;
-        margin-top: -4.5em;
-        margin-left: -1.3em;
-    }
-    .find {
-        font-size: 10px;
-        margin-top: -1.5em;
-        margin-left: -3em;
-    } */
-
-    /* Page 1 */
+    
     .banner {
         margin-bottom: 5em;
     }
@@ -629,7 +983,7 @@ and (max-device-width: 400px) {
         font-weight: bold;
         font-size: 15px;
         margin-top: 10px;
-        /* text-indent: 5px; */
+       
         letter-spacing: 2px;
         margin-left: -1.9em;
     }
@@ -663,9 +1017,9 @@ and (max-device-width: 400px) {
         margin-left: -3em;
     }
 
-}
+} */
 
-@media screen and (min-device-width: 401px)
+/* @media screen and (min-device-width: 401px)
 and (max-device-width: 460px) {
     .image_pg2 {
 
@@ -803,7 +1157,7 @@ and (max-device-width: 460px) {
         font-weight: bold;
         font-size: 15px;
         margin-top: 10px;
-        /* text-indent: 5px; */
+        
         letter-spacing: 2px;
         margin-left: -1.9em;
     }
@@ -840,9 +1194,9 @@ and (max-device-width: 460px) {
         margin-bottom: 5em;
     }
 
-}
+} */
 
-@media screen and (min-device-width: 461px)
+/* @media screen and (min-device-width: 461px)
 and (max-device-width: 499px) {
     .image_pg2 {
 
@@ -980,7 +1334,7 @@ and (max-device-width: 499px) {
         font-weight: bold;
         font-size: 15px;
         margin-top: 10px;
-        /* text-indent: 5px; */
+       
         letter-spacing: 2px;
         margin-left: -1.9em;
     }
@@ -1017,9 +1371,9 @@ and (max-device-width: 499px) {
         margin-bottom: 5em;
     }
 
-}
+} */
 
-@media screen and (min-device-width: 500px)
+/* @media screen and (min-device-width: 500px)
 and (max-device-width: 600px) {
     .image_pg2 {
 
@@ -1140,8 +1494,8 @@ and (max-device-width: 600px) {
         margin-bottom: 5em;
     }
 
-}
-@media screen and (min-device-width: 601px)
+} */
+/* @media screen and (min-device-width: 601px)
 and (max-device-width: 767px) {
     .image_pg2 {
 
@@ -1263,9 +1617,9 @@ and (max-device-width: 767px) {
         margin-bottom: 5em;
     }
 
-}
+} */
 
-@media screen and (min-device-width: 768px)
+/* @media screen and (min-device-width: 768px)
 and (max-device-width: 890px) {
     .faq{
 
@@ -1346,9 +1700,9 @@ and (max-device-width: 890px) {
         margin-top: -2em;
         margin-left: -10em;
     }
-}
+} */
 
-@media screen and (min-device-width: 891px)
+/* @media screen and (min-device-width: 891px)
 and (max-device-width: 991px) {
     .image_pg2 {
 
@@ -1478,9 +1832,9 @@ and (max-device-width: 991px) {
         margin-top: -2em;
         margin-left: -10em;
     }
-}
+} */
 
-@media screen and (min-device-width: 992px)
+/* @media screen and (min-device-width: 992px)
 and (max-device-width: 1200px) {
     .image_pg2 {
 
@@ -1627,7 +1981,7 @@ and (max-device-width: 1200px) {
     .nubiText{
         font-size: 45px;
     }
-}
+} */
 
 @media screen and (min-width: 1201px) {
 
