@@ -31,7 +31,7 @@
   }
 
 @media screen and (max-device-width: 350px)
-and (orientation: portrait) {
+ {
 
 .div_text {
     margin-top: -2em;
