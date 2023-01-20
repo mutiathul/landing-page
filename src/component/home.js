@@ -34,10 +34,10 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <Header />
+        {/* <Header /> */}
          <div style={{ background: `url(${Bg1})`, width:'100%' }} >
           <Row >
-            <Col lg={{span:10}} xs={{span:24}}>
+            <Col lg={{span:10}} md={{span:24}} sm={{span:24}} xs={{span:24}}>
               
                 <div className='page1'>
                   <Row>
@@ -58,28 +58,28 @@ export default class Home extends Component {
                     </p>
                   </Row>
                   <Row>
-                    <p className='p1_pg1'>
-                      Mian game dapat hadiah ?? Mau??
+                    <p className='p11_pg1'>
+                      Main game dapat hadiah ?? Mau??
                     </p>
                   </Row>
                   <Row>
-                    <text className='p1_pg1'>
+                    <p className='p11_pg1'>
                       Download Sekarang!!!
-                    </text>
+                    </p>
                   </Row>
-                  <Row align='middle' justify='center'>
+                  <Row>
                     <Col span={2}>
                     
                     </Col>
                     <Col span={10}>
-                      <Image className='dww1' src={dw1}  preview={false}/>
+                      <div className='dww1'>
+                      <Image src={dw1}  preview={false}/>
+                      </div>
                     </Col>
                     <Col span={10}>
-                      <Fragment>
-                        <Image className='dw2' src={dw2}  preview={false} >
-
-                        </Image>
-                      </Fragment>
+                    <div className='dww2'>
+                      <Image src={dw2}  preview={false}/>
+                      </div>
                     </Col>
                     <Col span={2}>
                     
@@ -105,13 +105,16 @@ export default class Home extends Component {
 
               
             </Col>
-            <Col lg={{span:14}} xs={{span:24}} style={{ marginTop: '5em' }}>
-              <Image width={"80%"} src={banner} preview={false}/>
+            <Col lg={{span:14}} md={{span:24}} sm={{span:24}} xs={{span:24}} >
+            <div className='banner'>
+            <Image  src={banner} preview={false} />    
+            </div>  
+           
             </Col>
           </Row>
         </div>
 
-        <div className='bg2'>
+        <div className='bgg2'>
           <Row >
             <Col lg={{span:12}} xs={{span:24}} sm={{span:24}}>
               <div style={{ display: 'flexbox', flexDirection: 'row', }}>
@@ -123,17 +126,24 @@ export default class Home extends Component {
                     </text>
 
                   </Row>
+                  <div className='div_find'>
                   <Row style={{ marginTop: '1em', marginBottom: '1em', marginLeft: '-20px' }}>
                     <Col xl={{ span:12, pull:2}} lg={{ span:12,}} xs={{span:12}}>
-                      <Image className='find_image' src={earn} />
-                      <text className='find'>FIND TO EARN</text>
+                      <div className='find_imagee'>
+                      <Image  src={earn} />
+                      </div>
+                      <p className='find'>FIND TO EARN</p>
                     </Col>
-                    <Col xl={{ span:12, pull:4}}  lg={{ span:12,}} xs={{span:12}}>
-                      <Image className='find_image'  src={earn} />
-                      <text className='find'>FIND TO EARN</text>
+                    <Col xl={{ span:12, pull:4}}  sm={{ span:12}} md={{ span:12,}} lg={{ span:12,}} xs={{span:12}}>
+                    <div className='find_imagee2'>
+                      <Image  src={earn} />
+                      </div>
+                      <p className='find2'>FIND TO EARN</p>
                     </Col>
                   </Row>
-                  <Row style={{ marginTop: '3em', }}>
+                  </div>
+                 <div className='row_pp2'>
+                 <Row>
                     <p className='pp_pg2'>
                       NUBI GO adalah permainan realitas dengan konsep petualangan
                       mencari HARTA KARUN. dimana beragam reward telah di sebar ke
@@ -160,20 +170,15 @@ export default class Home extends Component {
                       puzzle dimana setelah lengkap dapat kita satukan dan claim.
                     </p>
                   </Row>
+                 </div>
                 </div>
-                {/* <div>
-         <text style={{color:'white', fontWeight:'400', fontSize:35,}}>TO NUBI GO</text>
-         </div>
-         <div>
-          <text style={{color:'white', fontWeight:'bold', textAlign:'left'}}>AUGMENTED REALITY</text>
-          
-         </div> */}
+        
 
               </div>
             </Col>
             <Col lg={{span:12}} xs={{span:24}} sm={{span:24}} style={{ marginTop: '5em' }}>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <Fragment>
+                <div>
                   <Row >
                     <div className='image_pg2'>
                     <Image src={logo}  />
@@ -184,10 +189,8 @@ export default class Home extends Component {
                     <Image  src={hp} />
                     </div>
                   </Row>
-                  {/* <Row style={{marginLeft:'11em',marginTop:'-3em'}} >
-        <Image  width={"60%"} src={bawah} />
-        </Row> */}
-                </Fragment>
+                 
+                </div>
               </div>
             </Col>
           </Row>
@@ -202,9 +205,9 @@ export default class Home extends Component {
 
             <div>
               <Row>
-                <text  className='partner'>
+                <p  className='partner'>
                   OUR PARTNER
-                </text>
+                </p>
 
               </Row>
               <Row>
@@ -236,9 +239,9 @@ export default class Home extends Component {
 
               <div>
                 <Row>
-                  <text className='media'>
+                  <p className='media'>
                     OUR MEDIA PARTNER
-                  </text>
+                  </p>
 
                 </Row>
 
@@ -371,8 +374,8 @@ export default class Home extends Component {
                       </Col>
                       <Col span={20} style={{ marginTop: '17px', marginBottom: '20px' }}>
                         <text className='faq_text'> apakah artikel ini membantu?</text>
-                        <Button ghost type='primary' className='faq_Button' shape='round'>ya</Button>
-                        <Button ghost type='primary' className='faq_Button' shape='round'>Tidak</Button>
+                        <Button ghost type='primary' className='faq_Button' shape='round' size='small'>ya</Button>
+                        <Button ghost type='primary' className='faq_Button' shape='round' size='small'>Tidak</Button>
                       </Col>
                     </Row>
 

@@ -32,7 +32,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Header />
+                {/* <Header /> */}
                 <div style={{ background: `url(${bg1})`, width:'auto' ,height:'auto'}} >
                     
                     <div style={{ background: `url(${footer})`, width:'auto' ,height:'auto',transform:'translateY(4em)'}}>
@@ -42,10 +42,10 @@ class About extends Component {
                             </Col>
                             <Col span={6}>
                             <Row>
-                                <text className='text_pg1'>ABOUT</text>
+                                <p className='text_pg1'>ABOUT</p>
                             </Row>
                             <Row>
-                                <text className='text2_pg1'>NUBI GO</text>
+                                <p className='text2_pg1'>NUBI GO</p>
                             </Row>
                             </Col>
                             <Col span={2}>
@@ -54,12 +54,12 @@ class About extends Component {
                             <Col span={12}>
                             <Row align='middle'>
                     
-                    <Col span={10}>
+                    <Col lg={{span:10}} md={{span:10}} xs={{span:24}}>
                       <div className='dw1'>
                       <Image  src={dw1}  preview={false} />
                       </div>
                     </Col>
-                    <Col span={10}>
+                    <Col lg={{span:10}} md={{span:10}} xs={{span:24}}>
                       
                     <div className='dw2'>
                       <Image  src={dw2}  preview={false} />
@@ -69,7 +69,7 @@ class About extends Component {
                     
                   </Row>
                             </Col>
-                            <Col span={2}>
+                            <Col span={2} >
                             
                             </Col>
 
@@ -79,8 +79,9 @@ class About extends Component {
                     <div style={{ transform:'translateY(4em)'}}>
                         <Row>
                      
-                            <Col lg={{span:8, push:2}} xs={{span:22,push:2}} style={{marginTop:'3em',}} >
-                            <Row>
+                            <Col lg={{span:8, push:2}} md={{span:10,}} xs={{span:22,push:2}} style={{marginTop:'3em',}} >
+                 <div className='div_p1'>
+                 <Row>
                     <p className='p_pg1'>
                     NUBI GO adalah game dengan konsep FIND2EARN pertama di
                     INDONESIA! yang dikembangkan dengan teknologi Augmented
@@ -90,7 +91,7 @@ class About extends Component {
                     </p>
                   </Row>
                   <Row>
-                    <p className='p1_pg1'>
+                    <p className='p_pg1'>
                     Lewat konsep FIND2EARN ini NUBI GO mengembangkan konsep 
                     game dengan menggunakan teknologi AR ( Augmented Reality )
                     dimana dalam game ini para gamers akan di arahkan untuk 
@@ -101,8 +102,9 @@ class About extends Component {
                     bisa masuk ke tournament.
                     </p>
                   </Row>
+                 </div>
                             </Col>
-                            <Col lg={{span:14}}   xs={{span:24}}>
+                            <Col lg={{span:14}}  md={{span:14}} xs={{span:24}}>
                            <div className='asset1'>
                            <Image src={asset1}  preview={false} />
                            </div>
@@ -111,7 +113,7 @@ class About extends Component {
                         </Row>
                     </div>
                 </div>
-                <div style={{ background: `url(${bg2})`, width:'100vw' ,height:'140vh',backgroundSize:'90%',backgroundRepeat:'no-repeat'}} >
+                {/* <div style={{ background: `url(${bg2})`, width:'100vw' ,height:'140vh',backgroundSize:'90%',backgroundRepeat:'no-repeat'}} >
                 <div>
                     <Row>
                      
@@ -233,7 +235,7 @@ dunia nyata
                         </Col>
                     </Row>
                    </div>
-                </div>
+                </div> */}
                 <Footer />
             </div>
         );

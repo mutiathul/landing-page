@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import "../component/header.css"
+import "../component/footer.css"
 import Bg1 from '../asset/home/bg1.jpg'
 import logo from '../asset/home/logo.png'
 import login from '../asset/home/download1.png'
@@ -33,20 +33,26 @@ class Footer extends Component {
             <div>
                 <div style={{ background: `url(${footer})`, }} >
           <Row>
-            <Col span={3}>
+            <Col lg={{span:3}} md={{span:3}} sm={{span:2}}  xs={{span:2}}>
 
             </Col>
-            <Col span={4} style={{marginTop:'70px',}}>
-            <Image width={150} src={logo} />
+            <Col lg={{span:4}}  md={{span:4}} sm={{span:4}} xs={{span:4}} style={{marginTop:'70px',}}>
+          <div className='logoo'>
+          <Image  src={logo} />
+          </div>
             </Col>
-            <Col span={8}>
-                <Row>
+            <Col lg={{span:8}}  md={{span:8}} sm={{span:16}} xs={{span:16}}>
+                <Row align='middle' justify='space-around'>
                   <Col span={12}>
-                  <Image width={150} src={dw1} />
+                  <div className='down1'>
+          <Image  src={dw1} />
+          </div>
                 
                   </Col>
                   <Col span={12}>
-                  <Image width={150} src={dw2} />
+                  <div className='down2'>
+          <Image  src={dw2} />
+          </div>
                   </Col>
                 </Row>
                 <Row >
@@ -54,19 +60,34 @@ class Footer extends Component {
 
                 </Col>
                 <Col span={4}>
-                <Image width={50} src={linkedin} />
+                <div className='sosmed'>
+                <Image src={linkedin} />
+                </div>
+                
                 </Col>
                 <Col span={4}>
-                <Image width={50} src={ig} />
+                <div className='sosmed'>
+                <Image src={ig} />
+                </div>
+                
                 </Col>
                 <Col span={4}>
-                <Image width={50} src={wa} />
+                <div className='sosmed'>
+                <Image src={wa} />
+                    </div>
+               
                 </Col>
                 <Col span={4}>
-                <Image width={50} src={fb} />
+                <div className='sosmed'>
+                <Image src={fb} />
+                    </div>
+               
                 </Col>
                 <Col span={4}>
-                <Image width={50} src={twitter} />
+                <div className='sosmed'>
+                <Image src={twitter} />
+                    </div>
+              
                 </Col>
                 <Col span={2}>
                 
@@ -74,55 +95,60 @@ class Footer extends Component {
   
                 </Row>
             </Col>
-            <Col span={3} style={{marginTop:'30px', marginLeft:'20px'}}>
+            
+            <Col lg={{span:3}} md={{span:3}} sm={{span:10}} xs={{span:10}}style={{marginTop:'30px', marginLeft:'20px'}}>
              
+            <div className='div_text'>
             <Row>
-                    <text style={{ color: 'white', fontWeight: '600', lineHeight:'2em', textAlign: 'left', fontSize: 20,   }}>
+                    <text className='textt'>
                       Home 
                     </text>
             </Row>
             <Row>
-                    <text style={{ color: 'white', fontWeight: '600', lineHeight:'2em', textAlign: 'left', fontSize: 20,   }}>
+                    <text className='textt'>
                      About NUBI
                     </text>
             </Row>
             <Row>
-                    <text style={{ color: 'white', fontWeight: '600', lineHeight:'2em', textAlign: 'left', fontSize: 20,   }}>
+                    <text className='textt'>
                       Feature
                     </text>
             </Row>
             <Row>
-                    <text style={{ color: 'white', fontWeight: '600', lineHeight:'2em', textAlign: 'left', fontSize: 20,   }}>
+                    <text className='textt'>
                      Reward
                     </text>
             </Row>
+            </div>
               
             </Col>
-            <Col span={3} style={{marginTop:'30px', marginLeft:'20px'}}>
+            <Col lg={{span:3}} md={{span:3}} sm={{span:10}} xs={{span:10}}style={{marginTop:'30px', marginLeft:'20px'}}>
              
-             <Row>
-                     <text style={{ color: 'white', fontWeight: '600', lineHeight:'2em', textAlign: 'left', fontSize: 20,   }}>
+            <div className='div_textt'> 
+            <Row>
+                     <text className='textt'>
                        Event 
                      </text>
              </Row>
              <Row>
-                     <text style={{ color: 'white', fontWeight: '600', lineHeight:'2em', textAlign: 'left', fontSize: 20,   }}>
+                     <text className='textt'>
                       News
                      </text>
              </Row>
              <Row>
-                     <text style={{ color: 'white', fontWeight: '600', lineHeight:'2em', textAlign: 'left', fontSize: 20,   }}>
+                     <text className='textt'>
                        Contact Us
                      </text>
              </Row>
              <Row>
-                     <text style={{ color: 'white', fontWeight: '600', lineHeight:'2em', textAlign: 'left', fontSize: 20,   }}>
+                     <text className='textt'>
                       Privacy Policy
                      </text>
              </Row>
+            </div>
                
              </Col>
-            <Col span={3}>
+            <Col lg={{span:3}} md={{span:3}} sm={{span:2}} xs={{span:2}}>
               
               </Col>
           </Row>

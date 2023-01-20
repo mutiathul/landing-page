@@ -1,0 +1,409 @@
+.logoo {
+     width: 200px;
+}
+.down1 {
+    width: 200px;
+}
+
+.down2 {
+    width: 200px;
+}
+
+.sosmed {
+    width: 50px;
+    margin-top: -2em;
+    margin-bottom: 30px;
+    
+}
+
+.textt {
+    color: white;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: left;
+    font-size: 20px;
+  }
+  .div_text {
+    margin-top: 0;
+  }
+  .div_textt {
+    margin-top: 0;
+  }
+
+@media screen and (max-device-width: 350px)
+and (orientation: portrait) {
+.div_text {
+    margin-top: -2em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+.div_textt {
+    margin-top: -2em;
+    margin-left: 2em;
+ }
+.logoo 
+  {
+    width: 60px;
+    margin-top: -1.5em;
+  
+  }
+
+.down1 {
+    width: 80px;
+    margin-left: 2em;
+    margin-bottom: 10px;
+    
+}
+
+.down2 {
+    width: 80px;
+    margin-left: 1em;
+    margin-bottom: 10px;
+}
+.sosmed {
+    width: 20px;
+    margin-left: 1em;
+   
+    /* margin-top: -2em;
+    margin-bottom: 30px; */
+}
+
+.textt {
+    color: white;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: left;
+    font-size: 12px;
+   
+    
+   
+  }
+  
+
+}
+
+@media screen and (min-device-width: 351px)
+and (max-device-width: 400px)
+ {
+.div_text {
+    margin-top: -2em;
+    margin-bottom: 1em;
+    margin-left: 3em;
+}
+.div_textt {
+    margin-top: -2em;
+    margin-left: 2em;
+    
+ }
+.logoo 
+  {
+    width: 60px;
+    margin-top: -1.5em;
+    margin-left: 1em;
+  
+  }
+
+.down1 {
+    width: 90px;
+    margin-left: 2em;
+    margin-bottom: 10px;
+    
+}
+
+.down2 {
+    width: 90px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+.sosmed {
+    width: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+   
+    /* margin-top: -2em;
+    margin-bottom: 30px; */
+}
+
+.textt {
+    color: white;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: left;
+    font-size: 12px;
+   
+    
+   
+  }
+  
+
+}
+@media screen and (min-device-width: 401px)
+and (max-device-width:480px)
+ {
+.div_text {
+    margin-top: -2em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+}
+.div_textt {
+    margin-top: -2em;
+    margin-left: 4em;
+    
+ }
+.logoo 
+  {
+    width: 60px;
+    margin-top: -1.5em;
+    margin-left: 1em;
+  
+  }
+
+.down1 {
+    width: 95px;
+    margin-left: 2em;
+    margin-bottom: 10px;
+    
+}
+
+.down2 {
+    width: 95px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+.sosmed {
+    width: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+   
+    /* margin-top: -2em;
+    margin-bottom: 30px; */
+}
+
+.textt {
+    color: white;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: left;
+    font-size: 12px;
+   
+    
+   
+  }
+  
+
+}
+
+
+
+@media screen and (min-device-width: 481px) 
+and (max-device-width: 600px) {
+    .div_text {
+        margin-top: -2em;
+        margin-bottom: 1em;
+        margin-left:5em;
+    }
+    .div_textt {
+        margin-top: -2em;
+        margin-left:5em;
+        
+     }
+    .logoo 
+      {
+        width: 90px;
+        margin-top: -1.5em;
+        /* margin-left: 1em; */
+      
+      }
+    
+    .down1 {
+        width: 120px;
+        margin-left: 4em;
+        margin-bottom: 10px;
+        
+    }
+    
+    .down2 {
+        width: 120px;
+        margin-left: 1em;
+        margin-bottom: 10px;
+    }
+    .sosmed {
+        width: 35px;
+        margin-left: 1em;
+        margin-right: 1em;
+       
+        /* margin-top: -2em;
+        margin-bottom: 30px; */
+    }
+    
+    .textt {
+        color: white;
+        font-weight: 600;
+        line-height: 2em;
+        text-align: left;
+        font-size: 12px;
+       
+        
+       
+      }
+}
+
+@media screen and (min-device-width: 601px) 
+and (max-device-width: 767px) {
+    .div_text {
+        margin-top: -2em;
+        margin-bottom: 1em;
+        margin-left:5em;
+    }
+    .div_textt {
+        margin-top: -2em;
+        margin-left:5em;
+        
+     }
+    .logoo 
+      {
+        width: 90px;
+        margin-top: -1.5em;
+        /* margin-left: 1em; */
+      
+      }
+    
+    .down1 {
+        width: 130px;
+        margin-left: 3em;
+        margin-bottom: 10px;
+        
+    }
+    
+    .down2 {
+        width: 130px;
+        
+        margin-bottom: 10px;
+    }
+    .sosmed {
+        width: 35px;
+        margin-left: -1em;
+        margin-right: 1em;
+       
+        /* margin-top: -2em;
+        margin-bottom: 30px; */
+    }
+    
+    .textt {
+        color: white;
+        font-weight: 600;
+        line-height: 2em;
+        text-align: left;
+        font-size: 12px;
+       
+        
+       
+      }
+}
+
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .div_text {
+        margin-top: -2em;
+        margin-bottom: 1em;
+        margin-left:-4em;
+        margin-top: 1em;
+    }
+    .div_textt {
+        margin-top: 1em;
+        margin-left:-5em;
+        
+     }
+    .logoo 
+      {
+        width: 100px;
+        margin-top: -1.5em;
+        margin-left: -4em;
+      
+      }
+    
+    .down1 {
+        width: 130px;
+        margin-left: -4em;
+        margin-bottom: 10px;
+        
+    }
+    
+    .down2 {
+        width: 130px;
+        margin-left: -4em;
+        margin-bottom: 10px;
+    }
+    .sosmed {
+        width: 35px;
+        margin-left: -4em;
+        margin-right: 1em;
+       
+        /* margin-top: -2em;
+        margin-bottom: 30px; */
+    }
+    
+    .textt {
+        color: white;
+        font-weight: 600;
+        line-height: 2em;
+        text-align: left;
+        font-size: 12px;
+       
+        
+       
+      }
+}
+
+@media screen and (min-width: 1024px) {
+    .div_text {
+        margin-top: -2em;
+        margin-bottom: 1em;
+        
+        margin-top: 1em;
+    }
+    .div_textt {
+        margin-top: 1em;
+        margin-left:1em;
+        
+     }
+    .logoo 
+      {
+        width: 150px;
+        margin-top: -1.5em;
+        margin-left: -4em;
+      
+      }
+    
+    .down1 {
+        width: 150px;
+        margin-left: -1em;
+        margin-bottom: 10px;
+        
+    }
+    
+    .down2 {
+        width: 150px;
+       
+        margin-bottom: 10px;
+    }
+    .sosmed {
+        width: 40px;
+        margin-left: -2em;
+        margin-right: 1em;
+       
+        /* margin-top: -2em;
+        margin-bottom: 30px; */
+    }
+    
+    .textt {
+        color: white;
+        font-weight: 600;
+        line-height: 2em;
+        text-align: left;
+        font-size: 16px;
+       
+        
+       
+      }
+}

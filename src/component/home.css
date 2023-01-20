@@ -33,7 +33,7 @@
     margin-right: 30px;
     margin-left: 5px
 }
-.p1_pg1 {
+.p11_pg1 {
     color: white; 
     font-weight: 400;
     text-align: left; 
@@ -44,12 +44,14 @@
    
 }
 .dww1 {
-    width: 230px;
-    margin-top: -21px;
+    width: 200px;
+    margin-top: -5em;
+    margin-left: -4em;
 }
-.dw2 {
-    width: 230px;
-    margin-top: -23px;
+.dww2 {
+    width: 200px;
+    margin-top: -5em;
+    margin-left: -3em;
 }
 
 .ar2 {
@@ -65,12 +67,27 @@
     color: white; 
     margin-left: 1em; 
     font-size: 16px; 
-    font-weight: 500
+    font-weight: 500;
+    margin-top: -1.5em;
 }
 
-.find_image {
+.find_imagee {
 
     width: 40px;
+    margin-left: 5em;
+}
+.find2 {
+    color: white; 
+    margin-left: 1em; 
+    font-size: 16px; 
+    font-weight: 500;
+    margin-top: -1.5em;
+}
+
+.find_imagee2 {
+
+    width: 40px;
+    margin-left: 5em;
 }
 
 .pp_pg2 {
@@ -88,10 +105,10 @@
     display: flexbox; 
     margin-left: 5em;
 }
-.bg2 {
+.bgg2 {
     background: url("../asset/home/bg2.jpg"); 
     height: auto; 
-    margin-bottom: 5em ; 
+    /* margin-bottom: 5em ;  */
     width:auto;
 }
 
@@ -104,6 +121,7 @@
     /* width: 78%; */
     margin-left: 5em;
     margin-top: 1em;
+    margin-bottom: 5em;
 }
 .partner {
 
@@ -113,14 +131,14 @@
     /* marginTop: 10px;  */
     text-indent: 5px; 
     letter-spacing: 3px; 
-    margin-top: 5em; 
+    margin-top: 3.5em; 
     margin-left: 10em 
 }
 
 .p_partner {
     text-align: left;
-     margin-left: 11em; 
-     margin-top: 3em ;
+     margin-left: 10em; 
+     margin-top: 1em ;
 }
 .col_partner {
     margin-left: 19em;
@@ -128,7 +146,7 @@
 
 .media {
 
-    color: white; 
+    color: black; 
     font-weight: bold; 
     font-size: 30px; 
     margin-top: 10px; 
@@ -203,1264 +221,1505 @@
     margin-left: -30em ; 
     width:auto;
 }
+.banner {
+    margin-top: 5em;
+    width: 70%;
+    margin-left: 4em;
+}
 
-@media screen and (max-device-width: 480px)
+.row_pp2 {
+    margin-top: 3em;
+}
+.div_find {
+    margin-top: 0;
+}
+
+@media screen and (max-device-width: 350px)
 and (orientation: portrait) {
-    .bg5 {
-        background: url("../asset/home/bg5.jpg"); 
-        height: auto; 
-        /* background-size: 135%; 
-        background-repeat: no-repeat;  */
-        margin-left: -30em ; 
-        width:auto;
-    }
-    .faq {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 24px; 
-        margin-top: 10em; 
-        text-indent: 3px; 
-        letter-spacing: 2px; 
-        margin-top: 7em; 
-        margin-left: 15em;
-       
-    }
-    .faq_font {
-        font-size: 12px; 
-        letter-spacing: 1px; 
-        font-weight: 600;
-        text-align: left;
-    }
-    .faq_icon {
-        margin-top: 10px;
-        margin-left: 15px;
-        width: 20px;
-    }
-    .faq_lore {
-        text-align: left; 
-        margin-top: 2em;
-        font-size: 10px;
-    }
-    .faq_text {
-        color: grey;
-        margin-right:1em;
-        margin-left: -1em;
-        font-size: 12px;
-    }
-    .faq_Button {
-        color: grey;
-        margin-right: 10px;
-       size: 5;
-    }
-    .box {
-        margin-left:25em;
-        background: white;
-        width: 300px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-    }
-    .box1 {
-        margin-left:25em;
-        background: white;
-        width: 300px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-        margin-bottom: 5em;
-    }
-    .box2 {
-        margin-left:25em;
-        background: white;
-        width: 300px; height: auto; border: 1px solid blue;
-        margin-top: 2em;
-    }
-     
-    .media {
-
-        color: white; 
-        font-weight: bold; 
-        font-size: 200px; 
-        margin-top: 10px; 
-        text-indent: 5px; 
-        letter-spacing: 3px; 
-        margin-top: 7em; 
-        margin-left: 15em;
-    }
-    .page1{
-        margin-top: 6em;
-        display: flexbox;
-        margin-left: 5em;
-    }
-    .welcome {
-        color: white;
-        font-weight: bolder; 
-        font-size: 30px; 
-        letter-spacing: 2px;
-        text-align: center;
-    }
-    .nubiText {
-        color: white;
-         font-weight: 400; 
-         font-size: 15px;
-         text-indent: 3px;
-         /* letter-spacing: 2px */
-    }
-    .ar {
-        color: white;
-        font-weight: bold;
-        font-size: 13px;
-        /* text-align: left; */
-        /* margin-top: 10px;
-        text-indent: 5px;
-        letter-spacing: 2px */
-    }
-    .pp_pg1{
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        /* margin-top: 10px; 
-        margin-right: 30px;
-        margin-left: 5px */
-    }
-    .p1_pg1 {
-        color: white; 
-        font-weight: 400;
-        text-align: left; 
-        font-size: 12; 
-        margin-top: -1em; 
-        margin-right: 30px; 
-        margin-left: 5px; 
-       
-    }
-    .dww1 {
-        width: 50px;
-        margin-top: -21px;
-        margin-left: -3.5em;
-    }
-    .dw2 {
-        width: 50px;
-        margin-top: -23px;
-        margin-left: -10px;
-    }
-    .find {
-        color: white; 
-        /* margin-left: 1em;  */
-        font-size: 11px; 
-        font-weight: 500;
-        margin-right: 10px;
-    }
-    
-    .find_image {
-    
-        width: 15px;
-    }
-    .ar2 {
-        color: white; 
-        font-weight: bold; 
-        font-size: 20px; 
-        margin-top: 3px; 
-        text-indent: 5px; 
-        letter-spacing: 3px
-    }
-
-    .pp_pg2 {
-
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        margin-top: 10px; 
-        margin-right: 30px; 
-        margin-left: 5px
-    }
-
-    .div_pg2 {
-        margin-top: 3em; 
-        display: flexbox; 
-        margin-left: 3em;
-    }
 
     .image_pg2 {
-        width: 110px;
-        margin-left: 10em;
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
     }
     .image2_pg2 {
-        /* width: 78%; */
-        margin-left: 1em;
-        margin-top: 1em;
-    }
-    .partner {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 17px; 
-        /* marginTop: 10px;  */
-        /* text-indent: 5px;  */
-        /* letter-spacing: 1px;  */
-        margin-top: 5em; 
-        /* margin-left: -3px */
-    }
-    .col_partner {
-        margin-left:-2em;
-    }
-    .p_partner {
-        text-align: left;
-         margin-left: 14em; 
-         margin-top: 3em ;
-         font-size: 13px;
-    }
-}
-
-@media screen and (max-device-width: 640px) {
-    .bg5 {
-        background: url("../asset/home/bg5.jpg"); 
-        height: auto; 
-        /* background-size: 135%; 
-        background-repeat: no-repeat;  */
-        margin-left: -30em ; 
-        width:auto;
-    }
-    .faq {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 24px; 
-        margin-top: 10em; 
-        text-indent: 3px; 
-        letter-spacing: 2px; 
-        margin-top: 7em; 
-        margin-left: 14em;
-        margin-right:-4em;
-       
-    }
-    .faq_font {
-        font-size: 12px; 
-        letter-spacing: 1px; 
-        font-weight: 600;
-        text-align: left;
-    }
-    .faq_icon {
-        margin-top: 10px;
-        margin-left: 40px;
-        width: 20px;
-    }
-    .faq_lore {
-        text-align: left; 
-        margin-top: 2em;
-        font-size: 10px;
-    }
-    .faq_text {
-        color: grey;
-        margin-right:1em;
-        margin-left: -1em;
-        font-size: 12px;
-    }
-    .faq_Button {
-        color: grey;
-        margin-right: 10px;
-       size: 5;
-    }
-    .box {
-        margin-left:25em;
-        background: white;
-        width: 500px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-        margin-right:-4em;
-    }
-    .box1 {
-        margin-left:25em;
-        background: white;
-        width: 500px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-        margin-bottom: 5em;
-        margin-right:-4em;
-    }
-    .box2 {
-        margin-left:25em;
-        background: white;
-        width: 500px; height: auto; border: 1px solid blue;
-        margin-top: 2em;
-        margin-right:-4em;
-    }
-     
-    .media {
-
-        color: white; 
-        font-weight: bold; 
-        font-size: 20px; 
-        margin-top: 10px; 
-        text-indent: 5px; 
-        letter-spacing: 3px; 
-        margin-top: 7em; 
-        margin-left: 15em;
-    }
-    .page1{
-        margin-top: 6em;
-        display: flexbox;
-        margin-left: 5em;
-    }
-    .welcome {
-        color: white;
-        font-weight: bolder; 
-        font-size: 30px; 
-        letter-spacing: 2px;
-        text-align: center;
-    }
-    .nubiText {
-        color: white;
-         font-weight: 400; 
-         font-size: 15px;
-         text-indent: 3px;
-         /* letter-spacing: 2px */
-    }
-    .ar {
-        color: white;
-        font-weight: bold;
-        font-size: 13px;
-        /* text-align: left; */
-        /* margin-top: 10px;
-        text-indent: 5px;
-        letter-spacing: 2px */
-    }
-    .pp_pg1{
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        /* margin-top: 10px; 
-        margin-right: 30px;
-        margin-left: 5px */
-    }
-    .p1_pg1 {
-        color: white; 
-        font-weight: 400;
-        text-align: left; 
-        font-size: 12; 
-        margin-top: -1em; 
-        margin-right: 30px; 
-        margin-left: 5px; 
-       
-    }
-    .dww1 {
-        width: 50px;
-        margin-top: -21px;
-        margin-left: -3.5em;
-    }
-    .dw2 {
-        width: 50px;
-        margin-top: -23px;
-        margin-left: -10px;
-    }
-    .find {
-        color: white; 
-        /* margin-left: 1em;  */
-        font-size: 11px; 
-        font-weight: 500;
-        margin-right: 10px;
-    }
-    
-    .find_image {
-    
-        width: 15px;
-    }
-    .ar2 {
-        color: white; 
-        font-weight: bold; 
-        font-size: 20px; 
-        margin-top: 3px; 
-        text-indent: 5px; 
-        letter-spacing: 3px
-    }
-
-    .pp_pg2 {
-
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        margin-top: 10px; 
-        margin-right: 30px; 
-        margin-left: 5px
-    }
-
-    .div_pg2 {
-        margin-top: 3em; 
-        display: flexbox; 
-        margin-left: 3em;
-    }
-
-    .image_pg2 {
-        width: 110px;
-        margin-left: 10em;
-    }
-    .image2_pg2 {
-        /* width: 78%; */
-        margin-left: 1em;
-        margin-top: 1em;
-    }
-    .partner {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 17px; 
-        /* marginTop: 10px;  */
-        /* text-indent: 5px;  */
-        /* letter-spacing: 1px;  */
-        margin-top: 5em; 
-        /* margin-left: -3px */
-    }
-    .col_partner {
-        margin-left:-2em;
-    }
-    .p_partner {
-        text-align: left;
-         margin-left: 14em; 
-         margin-top: 3em ;
-         font-size: 13px;
-    }
-}
-@media screen and (min-device-width: 641px)
-and (max-device-width: 767px) {
-    .bg5 {
-        background: url("../asset/home/bg5.jpg"); 
-        height: auto; 
-        /* background-size: 135%; 
-        background-repeat: no-repeat;  */
-        margin-left: -30em ; 
-        width:auto;
-    }
-    .faq {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 24px; 
-        margin-top: 10em; 
-        text-indent: 3px; 
-        letter-spacing: 2px; 
-        margin-top: 7em; 
-        margin-left: 15em;
-        margin-right:-4em;
-       
-    }
-    .faq_font {
-        font-size: 12px; 
-        letter-spacing: 1px; 
-        font-weight: 600;
-        text-align: left;
-    }
-    .faq_icon {
-        margin-top: 10px;
-        margin-left: 40px;
-        width: 20px;
-    }
-    .faq_lore {
-        text-align: left; 
-        margin-top: 2em;
-        font-size: 10px;
-    }
-    .faq_text {
-        color: grey;
-        margin-right:1em;
-        margin-left: -1em;
-        font-size: 12px;
-    }
-    .faq_Button {
-        color: grey;
-        margin-right: 10px;
-       size: 5;
-    }
-    .box {
-        margin-left:25em;
-        background: white;
-        width: 500px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-        margin-right:-4em;
-    }
-    .box1 {
-        margin-left:25em;
-        background: white;
-        width: 500px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-        margin-bottom: 5em;
-        margin-right:-4em;
-    }
-    .box2 {
-        margin-left:25em;
-        background: white;
-        width: 500px; height: auto; border: 1px solid blue;
-        margin-top: 2em;
-        margin-right:-4em;
-    }
-     
-    .media {
-
-        color: white; 
-        font-weight: bold; 
-        font-size: 20px; 
-        margin-top: 10px; 
-        text-indent: 5px; 
-        letter-spacing: 3px; 
-        margin-top: 7em; 
-        margin-left: 15em;
-    }
-    .page1{
-        margin-top: 6em;
-        display: flexbox;
-        margin-left: 5em;
-    }
-    .welcome {
-        color: white;
-        font-weight: bolder; 
-        font-size: 30px; 
-        letter-spacing: 2px;
-        text-align: center;
-    }
-    .nubiText {
-        color: white;
-         font-weight: 400; 
-         font-size: 15px;
-         text-indent: 3px;
-         /* letter-spacing: 2px */
-    }
-    .ar {
-        color: white;
-        font-weight: bold;
-        font-size: 13px;
-        /* text-align: left; */
-        /* margin-top: 10px;
-        text-indent: 5px;
-        letter-spacing: 2px */
-    }
-    .pp_pg1{
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        /* margin-top: 10px; 
-        margin-right: 30px;
-        margin-left: 5px */
-    }
-    .p1_pg1 {
-        color: white; 
-        font-weight: 400;
-        text-align: left; 
-        font-size: 12; 
-        margin-top: -1em; 
-        margin-right: 30px; 
-        margin-left: 5px; 
-       
-    }
-    .dww1 {
-        width: 50px;
-        margin-top: -21px;
-        margin-left: -3.5em;
-    }
-    .dw2 {
-        width: 50px;
-        margin-top: -23px;
-        margin-left: -10px;
-    }
-    .find {
-        color: white; 
-        /* margin-left: 1em;  */
-        font-size: 11px; 
-        font-weight: 500;
-        margin-right: 10px;
-    }
-    
-    .find_image {
-    
-        width: 15px;
-    }
-    .ar2 {
-        color: white; 
-        font-weight: bold; 
-        font-size: 20px; 
-        margin-top: 3px; 
-        text-indent: 5px; 
-        letter-spacing: 3px
-    }
-
-    .pp_pg2 {
-
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        margin-top: 10px; 
-        margin-right: 30px; 
-        margin-left: 5px
-    }
-
-    .div_pg2 {
-        margin-top: 3em; 
-        display: flexbox; 
-        margin-left: 3em;
-    }
-
-    .image_pg2 {
-        width: 110px;
-        margin-left: 10em;
-    }
-    .image2_pg2 {
-        /* width: 78%; */
-        margin-left: 1em;
-        margin-top: 1em;
-    }
-    .partner {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 17px; 
-        /* marginTop: 10px;  */
-        /* text-indent: 5px;  */
-        /* letter-spacing: 1px;  */
-        margin-top: 5em; 
-        /* margin-left: -3px */
-    }
-    .col_partner {
-        margin-left:-2em;
-    }
-    .p_partner {
-        text-align: left;
-         margin-left: 14em; 
-         margin-top: 3em ;
-         font-size: 13px;
-    }
-}
-@media screen and (min-device-width: 768px)
-and (max-device-width: 991px) {
-    .bg5 {
-        background: url("../asset/home/bg5.jpg"); 
-        height: auto; 
-        /* background-size: 135%; 
-        background-repeat: no-repeat;  */
-        margin-left: -30em ; 
-        width:auto;
-    }
-    .faq {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 24px; 
-        margin-top: 10em; 
-        text-indent: 3px; 
-        letter-spacing: 2px; 
-        margin-top: 7em; 
-        margin-left: 15em;
-        margin-right:-4em;
-        transform: translateX(-4em);
-       
-    }
-    .faq_font {
-        font-size: 12px; 
-        letter-spacing: 1px; 
-        font-weight: 600;
-        text-align: left;
-    }
-    .faq_icon {
-        margin-top: 10px;
-        margin-left: 40px;
-        width: 20px;
-    }
-    .faq_lore {
-        text-align: left; 
-        margin-top: 2em;
-        font-size: 10px;
-    }
-    .faq_text {
-        color: black;
-        margin-right:1em;
-        margin-left: -1em;
-        font-size: 14px;
-    }
-    .faq_Button {
-        color: grey;
-        margin-right: 10px;
-       size: 5;
-    }
-    .box {
-        margin-left:25em;
-        background: white;
-        width: 500px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-        margin-right:-4em;
-        transform: translateX(-6em);
-    }
-    .box1 {
-        margin-left:25em;
-        background: white;
-        width: 500px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-        margin-bottom: 5em;
-        margin-right:-4em;
-        transform: translateX(-6em);
-    }
-    .box2 {
-        margin-left:25em;
-        background: white;
-        width: 500px; height: auto; border: 1px solid blue;
-        margin-top: 2em;
-        margin-right:-4em;
-        transform: translateX(-6em);
-    }
-     
-    .media {
-
-        color: white; 
-        font-weight: bold; 
-        font-size: 20px; 
-        margin-top: 10px; 
-        text-indent: 5px; 
-        letter-spacing: 3px; 
-        margin-top: 7em; 
-        margin-left: 15em;
-        transform: translateX(-8em);
-    }
-    .page1{
-        margin-top: 6em;
-        display: flexbox;
-        margin-left: 5em;
-    }
-    .welcome {
-        color: white;
-        font-weight: bolder; 
-        font-size: 30px; 
-        letter-spacing: 2px;
-        text-align: center;
-    }
-    .nubiText {
-        color: white;
-         font-weight: 400; 
-         font-size: 15px;
-         text-indent: 3px;
-         /* letter-spacing: 2px */
-    }
-    .ar {
-        color: white;
-        font-weight: bold;
-        font-size: 13px;
-        /* text-align: left; */
-        /* margin-top: 10px;
-        text-indent: 5px;
-        letter-spacing: 2px */
-    }
-    .pp_pg1{
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        /* margin-top: 10px; 
-        margin-right: 30px;
-        margin-left: 5px */
-    }
-    .p1_pg1 {
-        color: white; 
-        font-weight: 400;
-        text-align: left; 
-        font-size: 12; 
-        margin-top: -1em; 
-        margin-right: 30px; 
-        margin-left: 5px; 
-       
-    }
-    .dww1 {
-        width: 50px;
-        margin-top: -21px;
-        margin-left: -3.5em;
-    }
-    .dw2 {
-        width: 50px;
-        margin-top: -23px;
-        margin-left: -10px;
-    }
-    .find {
-        color: white; 
-        /* margin-left: 1em;  */
-        font-size: 11px; 
-        font-weight: 500;
-        margin-right: 10px;
-    }
-    
-    .find_image {
-    
-        width: 15px;
-    }
-    .ar2 {
-        color: white; 
-        font-weight: bold; 
-        font-size: 20px; 
-        margin-top: 3px; 
-        text-indent: 5px; 
-        letter-spacing: 3px
-    }
-
-    .pp_pg2 {
-
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        margin-top: 10px; 
-        margin-right: 30px; 
-        margin-left: 5px
-    }
-
-    .div_pg2 {
-        margin-top: 3em; 
-        display: flexbox; 
-        margin-left: 3em;
-    }
-
-    .image_pg2 {
-        width: 110px;
-        margin-left: 10em;
-    }
-    .image2_pg2 {
-        /* width: 78%; */
-        margin-left: 1em;
-        margin-top: 1em;
-    }
-    .partner {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 17px; 
-        /* marginTop: 10px;  */
-        /* text-indent: 5px;  */
-        /* letter-spacing: 1px;  */
-        margin-top: 5em; 
-
-        transform: translateX(-9em);
-    }
-    .col_partner {
-        margin-left:-2em;
-    }
-    .p_partner {
-        text-align: left;
-         margin-left: 14em; 
-         margin-top: 3em ;
-         font-size: 13px;
-        transform: translateX(-6em);
-
-    }
-}
-@media screen and (min-device-width: 768px)
-and (max-device-width: 1024px) {
-    .bg5 {
-        background: url("../asset/home/bg5.jpg"); 
-        height: auto; 
-        /* background-size: 135%; 
-        background-repeat: no-repeat;  */
-        margin-left: -30em ; 
-        width:auto;
-    }
-    .faq {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 24px; 
-        margin-top: 10em; 
-        text-indent: 3px; 
-        letter-spacing: 2px; 
-        margin-top: 7em; 
-        margin-left: 25em;
-    }
-    .faq_font {
-        font-size: 12px; 
-        letter-spacing: 1px; 
-        font-weight: 600;
-        text-align: left;
-    }
-    .faq_icon {
-        margin-top: 10px;
-        margin-left: 15px;
-        width: 20px;
-    }
-    .faq_lore {
-        text-align: left; 
-        margin-top: 2em;
-        font-size: 10px;
-    }
-    .faq_text {
-        color: grey;
-        margin-right:1em;
-        margin-left: -1em;
-        font-size: 12px;
-    }
-    .faq_Button {
-        color: grey;
-        margin-right: 10px;
-       size: 5;
-    }
-    .box {
-        margin-left:45em;
-        background: white;
-        width: 300px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-    }
-    .box1 {
-        margin-left:45em;
-        background: white;
-        width: 300px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-        margin-bottom: 5em;
-    }
-    .box2 {
-        margin-left:45em;
-        background: white;
-        width: 300px; height: auto; border: 1px solid blue;
-        margin-top: 2em;
-    }
-     
-    .media {
-
-        color: white; 
-        font-weight: bold; 
-        font-size: 20px; 
-        margin-top: 10px; 
-        text-indent: 5px; 
-        letter-spacing: 3px; 
-        margin-top: 7em; 
-        margin-left: 33em;
-    }
-    .page1{
-        margin-top: 6em;
-        display: flexbox;
-        margin-left: 5em;
-    }
-    .welcome {
-        color: white;
-        font-weight: bolder; 
-        font-size: 30px; 
-        letter-spacing: 2px;
-        text-align: center;
-    }
-    .nubiText {
-        color: white;
-         font-weight: 400; 
-         font-size: 15px;
-         text-indent: 3px;
-         /* letter-spacing: 2px */
-    }
-    .ar {
-        color: white;
-        font-weight: bold;
-        font-size: 13px;
-        /* text-align: left; */
-        /* margin-top: 10px;
-        text-indent: 5px;
-        letter-spacing: 2px */
-    }
-    .pp_pg1{
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        /* margin-top: 10px; 
-        margin-right: 30px;
-        margin-left: 5px */
-    }
-    .p1_pg1 {
-        color: white; 
-        font-weight: 400;
-        text-align: left; 
-        font-size: 12; 
-        margin-top: -1em; 
-        margin-right: 30px; 
-        margin-left: 5px; 
-       
-    }
-    .dww1 {
-        width: 50px;
-        margin-top: -21px;
-        margin-left: -3.5em;
-    }
-    .dw2 {
-        width: 50px;
-        margin-top: -23px;
-        margin-left: -10px;
-    }
-    .find {
-        color: white; 
-        /* margin-left: 1em;  */
-        font-size: 11px; 
-        font-weight: 500;
-        margin-right: 10px;
-    }
-    
-    .find_image {
-    
-        width: 15px;
-    }
-    .ar2 {
-        color: white; 
-        font-weight: bold; 
-        font-size: 20px; 
-        margin-top: 3px; 
-        text-indent: 5px; 
-        letter-spacing: 3px;
         margin-left: 2em;
+        width: 80%;
     }
-
+    .row_pp2 {
+        margin-top: -1em;
+    }
     .pp_pg2 {
 
-        color: white; 
-        font-weight: 400; 
-        text-align: left; 
-        font-size: 12px; 
-        margin-top: 10px; 
-        margin-right: 30px; 
-        margin-left: 3em
+        font-size: 12px;
+        margin-left: -2em;
     }
+    .ar2 {
+        font-size: 14px;
+        margin-left: -2em;
+        margin-top: -7em;
+    }
+    .div_find {
+        margin-top: -5em;
+    }
+    
+    .find_imagee {
 
-    .div_pg2 {
-        margin-top: 3em; 
-        display: flexbox; 
-        margin-left: 3em;
-    }
-
-    .image_pg2 {
-        width: 110px;
-        margin-left: 10em;
-    }
-    .image2_pg2 {
-        /* width: 78%; */
-        margin-left: 1em;
-        margin-top: 1em;
-    }
-    .partner {
-
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 17px; 
-        /* marginTop: 10px;  */
-        /* text-indent: 5px;  */
-        /* letter-spacing: 1px;  */
-        margin-top: 5em; 
-        margin-left: 30em;
-    }
-    .col_partner {
-        margin-left:-2em;
-    }
-    .p_partner {
-        text-align: left;
-         margin-left: 32em; 
-         margin-top: 3em ;
-         font-size: 13px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .page1 {
-        margin-top: 10em;
-        display: flexbox;
-        margin-left: 5em;
-    }
-    .welcome {
-        color: white;
-        font-weight: bolder; 
-        font-size: 80px; 
-        letter-spacing: 2px;
+        width: 20px;
+        margin-left: -1em;
         
     }
-    
+    .find {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+    .find_imagee2 {
+
+        width: 20px;
+        margin-left: -1em;
+    }
+    .find2 {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq{
+
+        font-size: 16px;
+        margin-left: 18.5em;
+    }
+    .box {
+
+        width: 200px;
+        margin-left: 23em;
+    }
+    .box1 {
+
+        width: 200px;
+        margin-left: 23em;
+    }
+    .box2 {
+
+        width: 200px;
+        margin-left: 23em;
+    }
+    .faq_font {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 1em;
+    }
+
+    .faq_lore {
+        font-size: 8px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 16px;
+        margin-left:17em;
+    }
+.partner {
+font-size: 30px;
+    margin-left: -7em;
+    margin-right: 1em;
+}
+.p_partner {
+    margin-top: -1em;
+    margin-left: -17em;
+    margin-right: 2em;
+    font-size: 12px;
+}
+    /* .image_pg2 {
+        margin-left: 7.5em;
+        width: 100px;
+        margin-top: -2.5em;
+    }
+
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+        margin-top: -1em;
+    }
+    .row_pp2 {
+        margin-top: -3em;
+        margin-left: -2em;
+    }
+    .pp_pg2 {
+
+        font-size: 10px;
+        
+    }
+    .ar2 {
+        font-size: 16px;
+        margin-top: -6em;
+        margin-left: -2.5em;
+    }
+
+    .find_imagee {
+        width: 20px;
+        margin-top: -4.5em;
+        margin-left: -1.3em;
+    }
+    .find {
+        font-size: 10px;
+        margin-top: -1.5em;
+        margin-left: -3em;
+    } */
+
+    /* Page Pertama */
+    .page1 {
+        margin-top: 6em;
+        display: flexbox;
+        margin-left: 5em;
+    }
+    .welcome {
+        color: white;
+        font-weight: bolder; 
+        font-size: 40px; 
+        letter-spacing: 2px;
+        margin-left: -0.8em;
+    }
     .nubiText {
         color: white;
          font-weight: 400; 
-         font-size: 50px;
-         letter-spacing: 2px
+         font-size: 25px;
+         letter-spacing: 2px;
+         margin-left: -1em;
     }
     .ar {
         color: white;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 15px;
         margin-top: 10px;
-        text-indent: 5px;
-        letter-spacing: 2px
+        /* text-indent: 5px; */
+        letter-spacing: 2px;
+        margin-left: -1.9em;
     }
     .pp_pg1{
         color: white; 
         font-weight: 400; 
         text-align: left; 
         font-size: 14px; 
-        margin-top: 1em;
+        margin-top: 10px; 
         margin-right: 30px;
-        margin-left: 5px;
-        
+        margin-left: -1.7em
     }
-    .p1_pg1 {
+    .p11_pg1 {
         color: white; 
         font-weight: 400;
         text-align: left; 
         font-size: 12; 
-        margin-top: 10em;
+        margin-top: 0.3em; 
         margin-right: 30px; 
-        margin-left: 5px; 
+        margin-left: -1.7em; 
        
     }
     .dww1 {
-        width: 230px;
-        margin-top: -21px;
+        width: 100px;
+        margin-top: -2em;
+        margin-left: -3.7em;
     }
-    .dw2 {
-        width: 230px;
-        margin-top: -23px;
+    .dww2 {
+        width: 100px;
+        margin-top: -2em;
+        margin-left: -3em;
     }
-    
-    .ar2 {
-        color: white; 
-        font-weight: bold; 
-        font-size: 40px; 
-        margin-top: 10px; 
-        text-indent: 5px; 
-        letter-spacing: 3px
+
+    .banner {
+        margin-bottom: 5em;
     }
-    
-    .find {
-        color: white; 
-        margin-left: 1em; 
-        font-size: 16px; 
-        font-weight: 500
+
+}
+
+@media screen and (min-device-width: 351px)
+and (max-device-width: 400px) {
+    .image_pg2 {
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
     }
-    
-    .find_image {
-    
-        width: 40px;
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
     }
-    
+    .row_pp2 {
+        margin-top: -1em;
+    }
     .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 14px;
+        margin-left:1.2em;
+        margin-top: -7em;
+    }
+    .div_find {
+        margin-top: -5em;
+    }
     
+    .find_imagee {
+
+        width: 20px;
+        margin-left: 2em;
+        
+    }
+    .find {
+
+        font-size: 10px;
+        margin-left: 2em;
+    }
+    .find_imagee2 {
+
+        width: 20px;
+        margin-left: 0em;
+    }
+    .find2 {
+
+        font-size: 10px;
+        margin-left: -3em;
+    }
+    .faq{
+
+        font-size: 16px;
+        margin-left: 22em;
+    }
+    .box {
+
+        width: 200px;
+        margin-left: 26em;
+    }
+    .box1 {
+
+        width: 200px;
+        margin-left: 26em;
+    }
+    .box2 {
+
+        width: 200px;
+        margin-left: 26em;
+    }
+    .faq_font {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 1em;
+    }
+
+    .faq_lore {
+        font-size: 8px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 16px;
+        margin-left:20em;
+    }
+    .partner {
+        font-size: 30px;
+            margin-left: -7em;
+            margin-right: 1em;
+        }
+        .p_partner {
+            margin-top: -1em;
+            margin-left: -17em;
+            margin-right: 2em;
+            font-size: 12px;
+        }
+    /* .image_pg2 {
+        margin-left: 7.5em;
+        width: 100px;
+        margin-top: -2.5em;
+    }
+
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+        margin-top: -1em;
+    }
+    .row_pp2 {
+        margin-top: -3em;
+        margin-left: -2em;
+    }
+    .pp_pg2 {
+
+        font-size: 10px;
+        
+    }
+    .ar2 {
+        font-size: 16px;
+        margin-top: -6em;
+        margin-left: -2.5em;
+    }
+
+    .find_imagee {
+        width: 20px;
+        margin-top: -4.5em;
+        margin-left: -1.3em;
+    }
+    .find {
+        font-size: 10px;
+        margin-top: -1.5em;
+        margin-left: -3em;
+    } */
+
+    /* Page 1 */
+    .banner {
+        margin-bottom: 5em;
+    }
+    .page1 {
+        margin-top: 6em;
+        display: flexbox;
+        margin-left: 5em;
+    }
+    .welcome {
+        color: white;
+        font-weight: bolder; 
+        font-size: 40px; 
+        letter-spacing: 2px;
+        margin-left: -0.8em;
+    }
+    .nubiText {
+        color: white;
+         font-weight: 400; 
+         font-size: 25px;
+         letter-spacing: 2px;
+         margin-left: -1em;
+    }
+    .ar {
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+        /* text-indent: 5px; */
+        letter-spacing: 2px;
+        margin-left: -1.9em;
+    }
+    .pp_pg1{
         color: white; 
         font-weight: 400; 
         text-align: left; 
-        font-size: 16px; 
+        font-size: 14px; 
         margin-top: 10px; 
+        margin-right: 30px;
+        margin-left: -1.7em
+    }
+    .p11_pg1 {
+        color: white; 
+        font-weight: 400;
+        text-align: left; 
+        font-size: 12; 
+        margin-top: 0.3em; 
         margin-right: 30px; 
-        margin-left: 5px
+        margin-left: -1.7em; 
+       
     }
-    .div_pg2 {
-        margin-top: 10em; 
-        display: flexbox; 
-        margin-left: 5em;
+    .dww1 {
+        width: 110px;
+        margin-top: -2em;
+        margin-left: -3.7em;
     }
-    .bg2 {
-        background: url("../asset/home/bg2.jpg"); 
-        height: auto; 
-        margin-bottom: 5em ; 
-        width:auto;
+    .dww2 {
+        width: 110px;
+        margin-top: -2em;
+        margin-left: -3em;
     }
-    
+
+}
+
+@media screen and (min-device-width: 401px)
+and (max-device-width: 460px) {
     .image_pg2 {
-        width: 170px;
-        margin-left: 15em;
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
+    }
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+    }
+    .row_pp2 {
+        margin-top: -1em;
+    }
+    .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 20px;
+        margin-left:0em;
+        margin-top: -5em;
+    }
+    .div_find {
+        margin-top: -5em;
     }
     
-    .image2_pg2 {
-        /* width: 78%; */
-        margin-left: 5em;
+    .find_imagee {
+
+        width: 20px;
+        margin-left: 2em;
+        
+    }
+    .find {
+
+        font-size: 10px;
+        margin-left: 0.5em;
+    }
+    .find_imagee2 {
+
+        width: 20px;
+        margin-left: -1em;
+    }
+    .find2 {
+
+        font-size: 10px;
+        margin-left: -7em;
+    }
+    .faq{
+
+        font-size: 16px;
+        margin-left: 25em;
+    }
+    .box {
+
+        width: 200px;
+        margin-left: 30em;
+    }
+    .box1 {
+
+        width: 200px;
+        margin-left: 30em;
+    }
+    .box2 {
+
+        width: 200px;
+        margin-left: 30em;
+    }
+    .faq_font {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 1em;
+    }
+
+    .faq_lore {
+        font-size: 8px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
         margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 16px;
+        margin-left:23em;
     }
     .partner {
+        font-size: 30px;
+            margin-left: -5em;
+            margin-right: 1em;
+            margin-top: 3em;
+        }
+        .p_partner {
+            margin-top: -1em;
+            margin-left: -17em;
+            margin-right: 2em;
+            font-size: 12px;
+        }
+    .page1 {
+        margin-top: 6em;
+        display: flexbox;
+        margin-left: 5em;
+    }
+    .welcome {
+        color: white;
+        font-weight: bolder; 
+        font-size: 40px; 
+        letter-spacing: 2px;
+        margin-left: -0.8em;
+    }
+    .nubiText {
+        color: white;
+         font-weight: 400; 
+         font-size: 25px;
+         letter-spacing: 2px;
+         margin-left: -1em;
+    }
+    .ar {
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+        /* text-indent: 5px; */
+        letter-spacing: 2px;
+        margin-left: -1.9em;
+    }
+    .pp_pg1{
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 14px; 
+        margin-top: 10px; 
+        margin-right: 30px;
+        margin-left: -1.7em
+    }
+    .p11_pg1 {
+        color: white; 
+        font-weight: 400;
+        text-align: left; 
+        font-size: 12; 
+        margin-top: 0.3em; 
+        margin-right: 30px; 
+        margin-left: -1.7em; 
+       
+    }
+    .dww1 {
+        width: 150px;
+        margin-top: -2em;
+        margin-left: -3.7em;
+    }
+    .dww2 {
+        width: 150px;
+        margin-top: -2em;
+        margin-left: -3em;
+    }
+    .banner {
+        margin-bottom: 5em;
+    }
+
+}
+
+@media screen and (min-device-width: 461px)
+and (max-device-width: 499px) {
+    .image_pg2 {
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
+    }
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+    }
+    .row_pp2 {
+        margin-top: -1em;
+    }
+    .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 25px;
+        margin-left:0.5em;
+        margin-top: -4em;
+    }
+    .div_find {
+        margin-top: -5em;
+    }
     
+    .find_imagee {
+
+        width: 20px;
+        margin-left: 4em;
+        
+    }
+    .find {
+
+        font-size: 10px;
+        margin-left: 1.5em;
+    }
+    .find_imagee2 {
+
+        width: 20px;
+        margin-left: 0em;
+    }
+    .find2 {
+
+        font-size: 10px;
+        margin-left: -9em;
+    }
+    .faq{
+
+        font-size: 16px;
+        margin-left: 25em;
+    }
+    .box {
+
+        width: 200px;
+        margin-left: 30em;
+    }
+    .box1 {
+
+        width: 200px;
+        margin-left: 30em;
+    }
+    .box2 {
+
+        width: 200px;
+        margin-left: 30em;
+    }
+    .faq_font {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 1em;
+    }
+
+    .faq_lore {
+        font-size: 8px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 16px;
+        margin-left:23em;
+    }
+    .partner {
+        font-size: 30px;
+            margin-left: -5em;
+            margin-right: 1em;
+            margin-top: 3em;
+        }
+        .p_partner {
+            margin-top: -1em;
+            margin-left: -17em;
+            margin-right: 2em;
+            font-size: 12px;
+        }
+    .page1 {
+        margin-top: 6em;
+        display: flexbox;
+        margin-left: 5em;
+    }
+    .welcome {
+        color: white;
+        font-weight: bolder; 
+        font-size: 40px; 
+        letter-spacing: 2px;
+        margin-left: -0.8em;
+    }
+    .nubiText {
+        color: white;
+         font-weight: 400; 
+         font-size: 25px;
+         letter-spacing: 2px;
+         margin-left: -1em;
+    }
+    .ar {
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+        /* text-indent: 5px; */
+        letter-spacing: 2px;
+        margin-left: -1.9em;
+    }
+    .pp_pg1{
+        color: white; 
+        font-weight: 400; 
+        text-align: left; 
+        font-size: 14px; 
+        margin-top: 10px; 
+        margin-right: 30px;
+        margin-left: -1.7em
+    }
+    .p11_pg1 {
+        color: white; 
+        font-weight: 400;
+        text-align: left; 
+        font-size: 12; 
+        margin-top: 0.3em; 
+        margin-right: 30px; 
+        margin-left: -1.7em; 
+       
+    }
+    .dww1 {
+        width: 150px;
+        margin-top: -2em;
+        margin-left: -3.7em;
+    }
+    .dww2 {
+        width: 150px;
+        margin-top: -2em;
+        margin-left: -3em;
+    }
+    .banner {
+        margin-bottom: 5em;
+    }
+
+}
+
+@media screen and (min-device-width: 500px)
+and (max-device-width: 600px) {
+    .image_pg2 {
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
+    }
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+    }
+    .row_pp2 {
+        margin-top: -1em;
+    }
+    .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 27px;
+        margin-left:1em;
+        margin-top: -4em;
+    }
+    .div_find {
+        margin-top: -5em;
+    }
+    
+    .find_imagee {
+
+        width: 25px;
+        margin-left: 2em;
+        
+    }
+    .find {
+
+        font-size: 14px;
+        margin-left: -1.5em;
+    }
+    .find_imagee2 {
+
+        width: 25px;
+        margin-left: 1em;
+    }
+    .find2 {
+
+        font-size: 14px;
+        margin-left: -3em;
+    }
+    .faq{
+
+        font-size: 18px;
+        margin-left: 22em;
+    }
+    .box {
+
+        width: 200px;
+        margin-left: 32em;
+    }
+    .box1 {
+
+        width: 200px;
+        margin-left: 32em;
+    }
+    .box2 {
+
+        width: 200px;
+        margin-left: 32em;
+    }
+    .faq_font {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 1em;
+    }
+
+    .faq_lore {
+        font-size: 8px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 16px;
+        margin-left:24em;
+    }
+    .partner {
+        font-size: 30px;
+            margin-left: -3.9em;
+            margin-right: 1em;
+            margin-top: 2em;
+        }
+        .p_partner {
+            margin-top: -1em;
+            margin-left: -15em;
+            margin-right: 5em;
+            font-size: 12px;
+        }
+    .banner {
+        margin-top: -1em;
+        width: 80%;
+        margin-left: 4.5em;
+        margin-bottom: 5em;
+    }
+
+}
+@media screen and (min-device-width: 601px)
+and (max-device-width: 767px) {
+    .image_pg2 {
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
+    }
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+    }
+    .row_pp2 {
+        margin-top: -1em;
+    }
+    .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 30px;
+        margin-left:2em;
+        margin-top: -4em;
+    }
+    .div_find {
+        margin-top: -5em;
+    }
+    
+    .find_imagee {
+
+        width: 25px;
+        margin-left: 6em;
+        
+    }
+    .find {
+
+        font-size: 14px;
+        margin-left: 3em;
+    }
+    .find_imagee2 {
+
+        width: 25px;
+        margin-left: 1em;
+    }
+    .find2 {
+
+        font-size: 14px;
+        margin-left: -7em;
+    }
+    .faq{
+
+        font-size: 18px;
+        margin-left: 22em;
+    }
+    .box {
+
+        width: 500px;
+        margin-left: 29em;
+        
+    }
+    .box1 {
+
+        width: 500px;
+        margin-left: 29em;
+    }
+    .box2 {
+
+        width: 500px;
+        margin-left: 29em;
+    }
+    .faq_font {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 3em;
+    }
+
+    .faq_lore {
+        font-size: 10px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 16px;
+        margin-left:27em;
+    }
+    .partner {
+        font-size: 30px;
+            margin-left: -1em;
+            margin-right: 1em;
+            margin-top: 2em;
+        }
+        .p_partner {
+            margin-top: -1em;
+            margin-left: -15em;
+            margin-right: 5em;
+            font-size: 12px;
+        }
+    .banner {
+        margin-top: -1em;
+        width: 80%;
+        margin-left: 4.5em;
+        margin-bottom: 5em;
+    }
+
+}
+
+@media screen and (min-device-width: 768px)
+and (max-device-width: 890px) {
+    .faq{
+
+        font-size: 18px;
+        margin-left: 26em;
+    }
+    .box {
+
+        width: 500px;
+        margin-left: 32em;
+        
+    }
+    .box1 {
+
+        width: 500px;
+        margin-left: 32em;
+    }
+    .box2 {
+
+        width: 500px;
+        margin-left: 32em;
+    }
+    .faq_font {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 3em;
+    }
+
+    .faq_lore {
+        font-size: 10px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 20px;
+        margin-left:26em;
+    }
+    .partner {
+        margin-left: 3em;
+        margin-top: 3em;
+    }
+    .p_partner{
+        margin-left: -5em;
+        margin-right: 5em;
+        margin-top: -1em;
+    }
+    .banner {
+        margin-top: -1em;
+        width: 60%;
+        margin-left: 10em;
+        margin-bottom: 5em;
+    }
+
+    .dww1 {
+        width: 200px;
+        margin-top: -2em;
+        margin-left: -4em;
+    }
+    .dww2 {
+        width: 200px;
+        margin-top: -2em;
+        margin-left: -10em;
+    }
+}
+
+@media screen and (min-device-width: 891px)
+and (max-device-width: 991px) {
+    .image_pg2 {
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
+    }
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+    }
+    .row_pp2 {
+        margin-top: -1em;
+    }
+    .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 50px;
+        letter-spacing: 6px;
+        margin-left:1.5em;
+        margin-top: -1.5em;
+    }
+    .div_find {
+        margin-top: 1em;
+    }
+    
+    .find_imagee {
+
+        width:35px;
+        margin-left: 10em;
+        
+    }
+    .find {
+
+        font-size: 18px;
+        margin-left: 2em;
+    }
+    .find_imagee2 {
+
+        width: 35px;
+        margin-left: 4em;
+    }
+    .find2 {
+
+        font-size: 18px;
+        margin-left: -7em;
+    }
+    .faq{
+
+        font-size: 18px;
+        margin-left: 30em;
+    }
+    .box {
+
+        width: 500px;
+        margin-left: 37em;
+        
+    }
+    .box1 {
+
+        width: 500px;
+        margin-left: 37em;
+    }
+    .box2 {
+
+        width: 500px;
+        margin-left: 37em;
+    }
+    .faq_font {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 3em;
+    }
+
+    .faq_lore {
+        font-size: 10px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 23px;
+        margin-left:25em;
+    }
+    .partner {
+        margin-left: 5em;
+        margin-top: 3em;
+    }
+    .p_partner{
+        margin-left: -5em;
+        margin-right: 5em;
+        margin-top: -1em;
+    }
+    .banner {
+        margin-top: -1em;
+        width: 60%;
+        margin-left: 10em;
+        margin-bottom: 5em;
+    }
+
+    .dww1 {
+        width: 200px;
+        margin-top: -2em;
+        margin-left: -4em;
+    }
+    .dww2 {
+        width: 200px;
+        margin-top: -2em;
+        margin-left: -10em;
+    }
+}
+
+@media screen and (min-device-width: 992px)
+and (max-device-width: 1200px) {
+    .image_pg2 {
+
+        margin-left: 6em;
+        width: 40%;
+        margin-top: -3em;
+    }
+    .image2_pg2 {
+        margin-left: 2em;
+        width: 80%;
+    }
+    .row_pp2 {
+        margin-top: -1em;
+    }
+    .pp_pg2 {
+
+        font-size: 12px;
+        margin-left: -2em;
+    }
+    .ar2 {
+        font-size: 35px;
+        letter-spacing: 5x;
+        margin-left:-0.5em;
+        margin-top: -2em;
+    }
+    .div_find {
+        margin-top: 1em;
+    }
+    
+    .find_imagee {
+
+        width:35px;
+        margin-left:2em;
+        margin-top: -2em;
+        
+    }
+    .find {
+
+        font-size: 18px;
+        margin-left: 2em;
+    }
+    .find_imagee2 {
+
+        width:35px;
+        margin-left:1em;
+        margin-top: -2em;
+
+    }
+    .find2 {
+
+        font-size: 18px;
+        margin-left: 1em;
+    }
+    .faq{
+
+        font-size: 18px;
+        margin-left: 30em;
+    }
+    .faq{
+
+        font-size: 20px;
+        margin-left: 30em;
+    }
+    .box {
+
+        width: 500px;
+        margin-left: 40em;
+        
+    }
+    .box1 {
+
+        width: 500px;
+        margin-left: 40em;
+    }
+    .box2 {
+
+        width: 500px;
+        margin-left: 40em;
+    }
+    .faq_font {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 3em;
+    }
+
+    .faq_lore {
+        font-size: 10px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 25px;
+        margin-left:25em;
+    }
+    .partner {
+        margin-left: 6em;
+        margin-top: 3em;
+    }
+    .p_partner {
+        margin-left: -6em;
+        margin-right: 3em;
+        margin-top: 1em;
+    }
+    .banner {
+        margin-top: 10em;
+        width: 70%;
+        margin-left: 8em;
+        margin-bottom: 5em;
+    }
+
+    .dww1 {
+        width: 200px;
+        margin-top: -3em;
+        margin-left: -3em;
+        margin-bottom: 5em;
+    }
+    .dww2 {
+        width: 200px;
+        margin-top: -3em;
+        margin-left: 2em;
+    }
+
+    .welcome {
+
+        font-size: 65px;
+    }
+    .nubiText{
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    .faq{
+
+        font-size: 22px;
+        margin-left:32em;
+        margin-top: 8em;
+    }
+    .box {
+
+        width: 500px;
+        margin-left: 50em;
+        
+    }
+    .box1 {
+
+        width: 500px;
+        margin-left: 50em;
+    }
+    .box2 {
+
+        width: 500px;
+        margin-left: 50em;
+    }
+    .faq_font {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .faq_icon {
+
+        margin-left: 3em;
+    }
+
+    .faq_lore {
+        font-size: 10px;
+    }
+
+    .faq_text {
+
+        font-size: 10px;
+        margin-left: -2em;
+    }
+
+    .faq_Button {
+
+        font-size: 10px;
+        margin-top: 1em;
+        
+        
+    }
+
+    .media {
+        font-size: 25px;
+        margin-left:30em;
+    }
+    .partner {
+
         color: #1a92d7; 
         font-weight: bold; 
         font-size: 30px; 
         /* marginTop: 10px;  */
         text-indent: 5px; 
         letter-spacing: 3px; 
-        margin-top: 5em; 
+        margin-top: 3.5em; 
         margin-left: 10em 
     }
     
     .p_partner {
         text-align: left;
-         margin-left: 2em; 
-         margin-top: 3em ;
-         margin-right: 10em;
-         margin-right: 3em;
+         margin-left: 10em; 
+         margin-top: 1em ;
     }
-    .col_partner {
-        margin-left: 19em;
+    .banner {
+        margin-top: 10em;
+        width: 70%;
+        margin-left: 8em;
+        margin-bottom: 5em;
     }
-    
-    .media {
-    
-        color: white; 
-        font-weight: bold; 
-        font-size: 30px; 
-        margin-top: 10px; 
-        text-indent: 5px; 
-        letter-spacing: 3px; 
-        margin-top: 7em; 
-        margin-left: 25em;
+
+    .dww1 {
+        width: 200px;
+        margin-top: -3em;
+        margin-left: -3em;
+        margin-bottom: 5em;
     }
-    
-    .faq {
-    
-        color: #1a92d7; 
-        font-weight: bold; 
-        font-size: 28px; 
-        margin-top: 10px; 
-        text-indent: 5px; 
-        letter-spacing: 3px; 
-        margin-top: 7em; 
-        margin-left: 17em;
+    .dww2 {
+        width: 200px;
+        margin-top: -3em;
+        margin-left: 2em;
     }
-    .box {
-        margin-left: 35.5em;
-        background: white;
-        width: 500px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-    }
-    .box1 {
-        margin-left:35.5em;
-        background: white;
-        width: 500px; height: 60px; border: 1px solid blue;
-        margin-top: 2em;
-        margin-bottom: 7em;
-    }
-    .box2 {
-        margin-left:35.5em;
-        background: white;
-        width: 500px; height: auto; border: 1px solid blue;
-        margin-top: 2em;
-        
-    }
-    .col_topfaq {
-        margin-top: 17px;
-    }
-    .faq_font {
-        font-size: 15px; 
-        letter-spacing: 2px; 
-        font-weight: 600;
-        margin-top: -1px;
-        text-align: left;
-    }
-    .faq_icon {
-        margin-top: 10px;
-        margin-left: 50px;
-        width: 30px;
-    }
-    .faq_lore {
-        text-align: left; 
-        margin-top: 2em;
-    }
-    .faq_text {
-        color: grey;
-        margin-right: 10px;
-    }
-    .faq_Button {
-        color: grey;
-        margin-right: 10px;
-    }
-    .bg5 {
-        background: url("../asset/home/bg5.jpg"); 
-        height: auto; 
-        background-size: 135%; 
-        background-repeat: no-repeat; 
-        margin-left: -20em ; 
-        width:auto;
-    }
-    
-   
-}    
+}
+
+ 
