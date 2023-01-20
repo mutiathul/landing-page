@@ -249,6 +249,59 @@ and (max-device-width: 600px) {
       }
 }
 
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+    .div_text {
+        margin-top: -2em;
+        margin-bottom: 1em;
+        margin-left:5em;
+    }
+    .div_textt {
+        margin-top: -2em;
+        margin-left:5em;
+        
+     }
+    .logoo 
+      {
+        width: 90px;
+        margin-top: -1.5em;
+        /* margin-left: 1em; */
+      
+      }
+    
+    .down1 {
+        width: 130px;
+        margin-left: 3em;
+        margin-bottom: 10px;
+        
+    }
+    
+    .down2 {
+        width: 130px;
+        
+        margin-bottom: 10px;
+    }
+    .sosmed {
+        width: 35px;
+        margin-left: -1em;
+        margin-right: 1em;
+       
+        /* margin-top: -2em;
+        margin-bottom: 30px; */
+    }
+    
+    .textt {
+        color: white;
+        font-weight: 600;
+        line-height: 2em;
+        text-align: left;
+        font-size: 12px;
+       
+        
+       
+      }
+}
+
 @media screen and (min-device-width: 601px) 
 and (max-device-width: 767px) {
     .div_text {
