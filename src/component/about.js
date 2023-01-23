@@ -36,44 +36,39 @@ class About extends Component {
                 <div style={{ background: `url(${bg1})`, width:'auto' ,height:'auto'}} >
                     
                     <div style={{ background: `url(${footer})`, width:'auto' ,height:'auto',transform:'translateY(4em)'}}>
-                        <Row align='middle'>
-                            <Col span={2}>
-                            
-                            </Col>
-                            <Col span={6}>
-                            <Row>
-                                <p className='text_pg1'>ABOUT</p>
-                            </Row>
-                            <Row>
-                                <p className='text2_pg1'>NUBI GO</p>
-                            </Row>
-                            </Col>
-                            <Col span={2}>
-                            
-                            </Col>
-                            <Col span={12}>
-                            <Row align='middle'>
-                    
-                    <Col lg={{span:10}} md={{span:10}} xs={{span:24}}>
-                      <div className='dw1'>
-                      <Image  src={dw1}  preview={false} />
-                      </div>
-                    </Col>
-                    <Col lg={{span:10}} md={{span:10}} xs={{span:24}}>
-                      
-                    <div className='dw2'>
-                      <Image  src={dw2}  preview={false} />
-                      </div>
-                     
-                    </Col>
-                    
-                  </Row>
-                            </Col>
-                            <Col span={2} >
-                            
-                            </Col>
+                    <Row >
+            <Col  md={{span:12}} xs={{span:24}}>
+                <Row align='middle' justify='center'>
+                    <Col span={2}>
 
+                    </Col>
+                    <Col span={20}>
+                    <div className='div_pg'>
+                    <div className='text_pg1'>ABOUT</div>
+                    <div className='text2_pg1'>TO NUBI GO</div>
+                   
+                    
+                </div>
+                    </Col>
+                    <Col span={2}>
+
+                    </Col>
+                </Row>
+            </Col>
+
+            <Col md={{span:12}}  xs={{span:24}}>
+            <div className='div_donload'>
+                        <Row align='middle' justify='center ' >
+                            <div className='dw1'>
+                            <Image src={dw1}  preview={false}/>
+                            </div>
+                            <div className='dw2'>
+                              <Image src={dw2}  preview={false} />
+                              </div> 
                         </Row>
+                    </div>
+            </Col>
+        </Row>
                     </div>
 
                     <div style={{ transform:'translateY(4em)'}}>

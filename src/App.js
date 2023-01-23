@@ -6,8 +6,8 @@ import Footer from './component/footer';
 import Home from './component/home/index'
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import About from './component/about';
-
+// import About from './component/about';
+import About from './component/about/index'
 function App() {
   return (
     <div className="App">
